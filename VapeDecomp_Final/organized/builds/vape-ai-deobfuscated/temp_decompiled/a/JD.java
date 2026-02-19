@@ -1,0 +1,869 @@
+/*
+ * Decompiled with CFR 0.152.
+ * 
+ * Could not load the following classes:
+ *  com.google.gson.JsonObject
+ */
+package a;
+
+import a.O_;
+import a.d8;
+import a.j1;
+import a.j9;
+import a.jE;
+import a.jG;
+import a.jr;
+import a.x4;
+import a.xi;
+import com.google.gson.JsonObject;
+import java.lang.invoke.CallSite;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import java.lang.invoke.MutableCallSite;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.security.Key;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import javax.crypto.Cipher;
+import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.DESKeySpec;
+import javax.crypto.spec.IvParameterSpec;
+
+/*
+ * Duplicate member names - consider using --renamedupmembers true
+ */
+public class jd
+extends j1<jG, jd> {
+    private static final String[] h;
+    private static final long d;
+    private static int[] n;
+    private static final Object[] g;
+    private final String K;
+    private final jG[] A;
+    private jG a = null;
+    private static final long e;
+    private final Map<jE<?, ?>, ArrayList<jG>> L = new HashMap();
+
+    public static jd I(Object object, String string, String string2, jG jG2, jG ... jGArray) {
+        return jd.c(object, string, string, string2, jG2, 1, jGArray);
+    }
+
+    public static jd c(Object object, String string, String string2, String string3, jG jG2, int n2, jG[] jGArray) {
+        jd jd2 = new jd(object, string, string2, jG2, jGArray);
+        jd2.R(string3);
+        for (jG jG3 : jGArray) {
+            jG3.i(jd2);
+        }
+        return jd2;
+    }
+
+    public static jd E(Object object, String string, String string2, String string3, jG jG2, jG ... jGArray) {
+        return jd.c(object, string, string2, string3, jG2, 1, jGArray);
+    }
+
+    public void U(jr jr2) {
+        this.a = jr2;
+    }
+
+    private static Field c(Class clazz, String string, Class clazz2) {
+        for (Field field : clazz.getDeclaredFields()) {
+            if (!field.getName().equals(string) || field.getType() != clazz2) continue;
+            return field;
+        }
+        return null;
+    }
+
+    private static Method c(Class clazz, String string, Class clazz2, int n2, Class[] classArray) {
+        block0: for (Method method : clazz.getDeclaredMethods()) {
+            Class<?>[] classArray2;
+            if (!method.getName().equals(string) || method.getReturnType() != clazz2 || (classArray2 = method.getParameterTypes()).length != n2) continue;
+            for (int i10 = 0; i10 < n2; ++i10) {
+                if (classArray2[i10] != classArray[i10]) continue block0;
+            }
+            return method;
+        }
+        return null;
+    }
+
+    @Override
+    public String O() {
+        return this.K;
+    }
+
+    @Override
+    public boolean j(jE jE2) {
+        if (this.L.containsKey(jE2)) {
+            ArrayList<jG> arrayList = this.L.get(jE2);
+            return arrayList.contains(this.J());
+        }
+        return false;
+    }
+
+    public static void D(int[] nArray) {
+        n = nArray;
+    }
+
+    public void s(jr jr2, jE ... jEArray) {
+        this.l(jEArray);
+        for (jE jE2 : jEArray) {
+            this.l(jE2, jr2);
+        }
+    }
+
+    @Override
+    public void i(String string) {
+        jd jd2 = ((jG)this.J()).r();
+        try {
+            if (jd2 == null) {
+                return;
+            }
+        }
+        catch (O_ o_2) {
+            throw jd.b(o_2);
+        }
+        jG jG2 = jG.K(jd2, string);
+        try {
+            if (jG2 == null) {
+                return;
+            }
+        }
+        catch (O_ o_3) {
+            throw jd.b(o_3);
+        }
+        this.V(jG2);
+    }
+
+    private static O_ b(O_ o_2) {
+        return o_2;
+    }
+
+    private void r(j9 j92, j9 j93) {
+        try {
+            if (this.f()) {
+                return;
+            }
+        }
+        catch (O_ o_2) {
+            throw jd.b(o_2);
+        }
+        Object t10 = ((x4)j92.c()).n();
+        ((xi)t10).A(j92, j93);
+    }
+
+    private static Class f(long l10, long l11) {
+        Object object;
+        Class<?> clazz;
+        block2: {
+            clazz = null;
+            int n2 = jd.e(l10, l11);
+            object = g[n2];
+            try {
+                if (!(object instanceof String)) break block2;
+                jd.g[n2] = clazz = Class.forName(h[n2]);
+            }
+            catch (Exception exception) {
+                throw new RuntimeException(exception.toString());
+            }
+        }
+        clazz = (Class<?>)object;
+        return clazz;
+    }
+
+    public void V(jG jG2) {
+        block9: {
+            try {
+                if (((jG)this.J()).equals(jG2)) {
+                    return;
+                }
+            }
+            catch (O_ o_2) {
+                throw jd.b(o_2);
+            }
+            try {
+                try {
+                    try {
+                        if (this.U() == null || !(jG2 instanceof j9)) break block9;
+                    }
+                    catch (O_ o_3) {
+                        throw jd.b(o_3);
+                    }
+                    if (!(this.J() instanceof j9)) break block9;
+                }
+                catch (O_ o_4) {
+                    throw jd.b(o_4);
+                }
+                this.r((j9)this.J(), (j9)jG2);
+            }
+            catch (O_ o_5) {
+                throw jd.b(o_5);
+            }
+        }
+        super.H(jG2);
+    }
+
+    private static Field d(Class clazz, String string, Class clazz2) {
+        Field field = jd.c(clazz, string, clazz2);
+        if (field != null) {
+            return field;
+        }
+        Class<?>[] classArray = clazz.getInterfaces();
+        if (classArray != null) {
+            for (int i10 = 0; i10 < classArray.length; ++i10) {
+                field = jd.d(classArray[i10], string, clazz2);
+                if (field == null) continue;
+                return field;
+            }
+        }
+        return null;
+    }
+
+    @Override
+    public jd S() {
+        return new jd(null, this.x(), this.O(), (jG)this.J(), this.Z());
+    }
+
+    private static void a() {
+        Object[] objectArray = g;
+        g[0] = "Z1\u0005";
+        objectArray[1] = Integer.TYPE;
+        jd.h[1] = "java/lang/Integer";
+        objectArray[2] = "\u000eZ*\u0017?]\u0005U;XBE\u0016R2\u0011";
+        objectArray[3] = "\u001dd%\u000eDE\u0016k4A%K\u001d`0\u001b";
+        Object[] objectArray2 = objectArray;
+        objectArray[4] = ";\\&T\u0011\\9M/iGJR\u0019{\u0012^]*\u001e,\u0006\u00171kD8\fO\u0000(\u0019,X,";
+    }
+
+    public jG k() {
+        try {
+            if (this.a != null) {
+                return this.a;
+            }
+        }
+        catch (O_ o_2) {
+            throw jd.b(o_2);
+        }
+        for (jG jG2 : this.A) {
+            try {
+                if (jG2.p()) continue;
+                return jG2;
+            }
+            catch (O_ o_3) {
+                throw jd.b(o_3);
+            }
+        }
+        return null;
+    }
+
+    public static jd D(Object object, String string, jG jG2, jG ... jGArray) {
+        return jd.I(object, string, string, jG2, jGArray);
+    }
+
+    public static jd v(Object object, String string, String string2, jG jG2, int n2, jG ... jGArray) {
+        return jd.c(object, string, string, string2, jG2, n2, jGArray);
+    }
+
+    private static CallSite b(MethodHandles.Lookup lookup, String string, MethodType methodType) {
+        MutableCallSite mutableCallSite = new MutableCallSite(methodType);
+        try {
+            mutableCallSite.setTarget(MethodHandles.explicitCastArguments(MethodHandles.insertArguments(cfr_ldc_0().asCollector(Object[].class, methodType.parameterCount()), 0, lookup, mutableCallSite, string, methodType), methodType));
+        }
+        catch (Exception exception) {
+            throw new RuntimeException("a/jd" + " : " + string + " : " + methodType.toString(), exception);
+        }
+        return mutableCallSite;
+    }
+
+    public jd(Object object, String string, String string2, jG jG2, jG[] jGArray) {
+        super(object, string, jG2);
+        this.K = string2;
+        this.A = jGArray;
+        if (object instanceof xi) {
+            xi xi2 = (xi)object;
+            for (jG jG3 : jGArray) {
+                if (!(jG3 instanceof j9)) continue;
+                j9 j92 = (j9)jG3;
+                for (jE<?, ?> jE2 : ((xi)j92.c()).F()) {
+                    xi2.N(jE2);
+                    this.l(jE2, j92);
+                }
+            }
+        }
+    }
+
+    @Override
+    public JsonObject k(boolean bl2) {
+        long l10 = d ^ 0x9AA57CBDDD2L;
+        JsonObject jsonObject = this.y();
+        try {
+            if (this.J() != null) {
+                jsonObject.addProperty((String)((Object)jd.b("\u00dd", (int)((int)e), (long)3066978305591393839L, (long)l10)), ((jG)this.J()).F());
+            }
+        }
+        catch (O_ o_2) {
+            throw jd.b(o_2);
+        }
+        return jsonObject;
+    }
+
+    @Override
+    public boolean y() {
+        return true;
+    }
+
+    private static Method h(long l10, long l11) {
+        int n2 = jd.e(l10, l11);
+        Object object = g[n2];
+        if (object instanceof String) {
+            Class<?>[] classArray;
+            Class clazz;
+            Class clazz2;
+            Class[] classArray2;
+            int n3;
+            String string;
+            Class clazz3;
+            block10: {
+                String string2 = h[n2];
+                int n4 = string2.indexOf(8);
+                clazz3 = jd.f(Long.parseLong(string2.substring(0, n4), 36), 0L);
+                int n5 = string2.indexOf(8, ++n4);
+                string = string2.substring(n4, n5);
+                int n6 = -1;
+                int n7 = n5;
+                do {
+                    ++n6;
+                    ++n7;
+                } while ((n7 = string2.indexOf(8, n7)) > -1);
+                n3 = n6 - 1;
+                classArray2 = new Class[n3];
+                clazz2 = null;
+                n7 = n5 + 1;
+                for (int i10 = 0; i10 < n6; ++i10) {
+                    int n8 = string2.indexOf(8, n7);
+                    clazz2 = jd.f(Long.parseLong(string2.substring(n7, n8), 36), 0L);
+                    if (i10 < n3) {
+                        classArray2[i10] = clazz2;
+                    }
+                    n7 = n8 + 1;
+                }
+                clazz = clazz3;
+                do {
+                    if ((classArray = jd.c(clazz, string, clazz2, n3, classArray2)) != null) {
+                        jd.g[n2] = classArray;
+                        return classArray;
+                    }
+                    if (clazz.getName().equals("java.lang.Object")) break block10;
+                } while ((clazz = clazz.getSuperclass()) != null);
+                clazz = jd.f(277496444567486L, 0L);
+            }
+            clazz = clazz3;
+            while (true) {
+                if ((classArray = clazz.getInterfaces()) != null) {
+                    for (int i11 = 0; i11 < classArray.length; ++i11) {
+                        Method method = jd.d(classArray[i11], string, clazz2, n3, classArray2);
+                        if (method == null) continue;
+                        jd.g[n2] = method;
+                        return method;
+                    }
+                }
+                if (clazz.getName().equals("java.lang.Object")) break;
+                if ((clazz = clazz.getSuperclass()) != null) continue;
+                clazz = jd.f(277496444567486L, 0L);
+            }
+            StringBuffer stringBuffer = new StringBuffer();
+            stringBuffer.append("NoSuchMethodException in ").append(clazz3.getName()).append(' ').append(clazz2.getName()).append(' ').append(string).append('(');
+            int n9 = 0;
+            while (n9 < n3) {
+                stringBuffer.append(classArray2[n9].getName());
+                if (++n9 >= n3) continue;
+                stringBuffer.append(", ");
+            }
+            stringBuffer.append(')');
+            throw new RuntimeException(stringBuffer.toString());
+        }
+        return (Method)object;
+    }
+
+    public void S(int n2) {
+        this.V(this.Z()[n2]);
+    }
+
+    public void l(jE jE2, jr jr2) {
+        try {
+            this.l(jE2);
+            if (!this.L.containsKey(jE2)) {
+                this.L.put(jE2, new ArrayList());
+            }
+        }
+        catch (O_ o_2) {
+            throw jd.b(o_2);
+        }
+        ArrayList<jG> arrayList = this.L.get(jE2);
+        arrayList.add(jr2);
+    }
+
+    public static int[] V() {
+        return n;
+    }
+
+    public int V() {
+        int n2 = 0;
+        while (true) {
+            block5: {
+                try {
+                    try {
+                        if (n2 >= this.Z().length) break;
+                        if (!((jG)this.J()).equals(this.Z()[n2])) break block5;
+                    }
+                    catch (O_ o_2) {
+                        throw jd.b(o_2);
+                    }
+                    return n2;
+                }
+                catch (O_ o_3) {
+                    throw jd.b(o_3);
+                }
+            }
+            ++n2;
+        }
+        return 0;
+    }
+
+    @Override
+    public String p() {
+        return ((jG)this.J()).toString();
+    }
+
+    /*
+     * Enabled aggressive block sorting
+     */
+    static {
+        d = d8.a(807841395358616133L, 5723819430918052155L, MethodHandles.lookup().lookupClass()).a(242352177905985L);
+        g = new Object[5];
+        h = new String[5];
+        jd.a();
+        long l10 = d ^ 0x7E9214EECB52L;
+        jd.D(null);
+        Cipher cipher = Cipher.getInstance("DES/CBC/NoPadding");
+        SecretKeyFactory secretKeyFactory = SecretKeyFactory.getInstance("DES");
+        byte[] byArray = new byte[8];
+        byte[] byArray2 = byArray;
+        byArray[0] = (byte)(l10 >>> 56);
+        int n2 = 1;
+        while (true) {
+            if (n2 >= 8) {
+                cipher.init(2, (Key)secretKeyFactory.generateSecret(new DESKeySpec(byArray2)), new IvParameterSpec(new byte[8]));
+                long l11 = 8809627940333266392L;
+                byte[] byArray3 = cipher.doFinal(new byte[]{(byte)(l11 >>> 56), (byte)(l11 >>> 48), (byte)(l11 >>> 40), (byte)(l11 >>> 32), (byte)(l11 >>> 24), (byte)(l11 >>> 16), (byte)(l11 >>> 8), (byte)l11});
+                e = ((long)byArray3[0] & 0xFFL) << 56 | ((long)byArray3[1] & 0xFFL) << 48 | ((long)byArray3[2] & 0xFFL) << 40 | ((long)byArray3[3] & 0xFFL) << 32 | ((long)byArray3[4] & 0xFFL) << 24 | ((long)byArray3[5] & 0xFFL) << 16 | ((long)byArray3[6] & 0xFFL) << 8 | (long)byArray3[7] & 0xFFL;
+                return;
+            }
+            byArray2 = byArray2;
+            byArray2[n2] = (byte)(l10 << n2 * 8 >>> 56);
+            ++n2;
+        }
+    }
+
+    private static MethodHandle b(MethodHandles.Lookup lookup, MutableCallSite mutableCallSite, String string, MethodType methodType, long l10, long l11) {
+        char c10 = string.charAt(0);
+        MethodHandle methodHandle = null;
+        Field field = null;
+        Method method = null;
+        try {
+            if (c10 == '\u00ca' || c10 == 'a' || c10 == '\u00fe' || c10 == '\u00df') {
+                field = jd.g(l10, l11);
+                Class<?> clazz = field.getDeclaringClass();
+                String string2 = field.getName();
+                Class<?> clazz2 = field.getType();
+                methodHandle = c10 == '\u00ca' ? lookup.findGetter(clazz, string2, clazz2) : (c10 == 'a' ? lookup.findSetter(clazz, string2, clazz2) : (c10 == '\u00fe' ? lookup.findStaticGetter(clazz, string2, clazz2) : lookup.findStaticSetter(clazz, string2, clazz2)));
+            } else {
+                method = jd.h(l10, l11);
+                Class<?> clazz = method.getDeclaringClass();
+                String string3 = method.getName();
+                MethodType methodType2 = MethodType.methodType(method.getReturnType(), method.getParameterTypes());
+                methodHandle = c10 == '\u00fb' ? lookup.findVirtual(clazz, string3, methodType2) : (c10 == '\u00dd' ? lookup.findStatic(clazz, string3, methodType2) : lookup.findSpecial(clazz, string3, methodType2, clazz));
+            }
+            return MethodHandles.dropArguments(methodHandle, methodType.parameterCount() - 2, new Class[]{Long.TYPE, Long.TYPE});
+        }
+        catch (Exception exception) {
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.append(exception.getClass().getName()).append(" : ").append(field != null ? field.toString() : (method != null ? method.toString() : " null ")).append(" : ").append(exception.toString());
+            throw new RuntimeException(stringBuilder.toString());
+        }
+    }
+
+    public jG[] Z() {
+        return this.A;
+    }
+
+    private static Object b(MethodHandles.Lookup lookup, MutableCallSite mutableCallSite, String string, MethodType methodType, Object[] objectArray) {
+        int n2 = objectArray.length - 2;
+        long l10 = (Long)objectArray[n2];
+        long l11 = (Long)objectArray[++n2];
+        MethodHandle methodHandle = jd.b(lookup, mutableCallSite, string, methodType, l10, l11);
+        mutableCallSite.setTarget(MethodHandles.explicitCastArguments(methodHandle, methodType));
+        return methodHandle.asSpreader(Object[].class, objectArray.length).invoke(objectArray);
+    }
+
+    private static Field g(long l10, long l11) {
+        int n2 = jd.e(l10, l11);
+        Object object = g[n2];
+        if (object instanceof String) {
+            String string = h[n2];
+            int n3 = string.indexOf(8);
+            Class clazz = jd.f(Long.parseLong(string.substring(0, n3), 36), 0L);
+            int n4 = string.indexOf(8, ++n3);
+            String string2 = string.substring(n3, n4);
+            Class clazz2 = jd.f(Long.parseLong(string.substring(++n4), 36), 0L);
+            Class clazz3 = clazz;
+            while (true) {
+                Field field;
+                if ((field = jd.c(clazz3, string2, clazz2)) != null) {
+                    jd.g[n2] = field;
+                    return field;
+                }
+                Class<?>[] classArray = clazz3.getInterfaces();
+                if (classArray != null) {
+                    for (int i10 = 0; i10 < classArray.length; ++i10) {
+                        field = jd.d(classArray[i10], string2, clazz2);
+                        if (field == null) continue;
+                        jd.g[n2] = field;
+                        return field;
+                    }
+                }
+                if (clazz3.getName().equals("java.lang.Object")) break;
+                if ((clazz3 = clazz3.getSuperclass()) != null) continue;
+                clazz3 = jd.f(277496444567486L, 0L);
+            }
+            StringBuffer stringBuffer = new StringBuffer();
+            stringBuffer.append("NoSuchFieldException in ").append(clazz.getName()).append(' ').append(clazz2.getName()).append(' ').append(string2);
+            throw new RuntimeException(stringBuffer.toString());
+        }
+        return (Field)object;
+    }
+
+    private static int e(long l10, long l11) {
+        int n2;
+        int n3;
+        int n4;
+        int n5 = (int)((l10 ^= l11 << 48 | l11) >>> 46);
+        if (h[n5] != null) {
+            return n5;
+        }
+        Object object = g[n5];
+        if (!(object instanceof String)) {
+            return n5;
+        }
+        int n6 = 0;
+        switch ((int)(l10 >>> 42 & 0x3FL)) {
+            case 0: {
+                n4 = 11;
+                break;
+            }
+            case 1: {
+                n4 = 7;
+                break;
+            }
+            case 2: {
+                n4 = 33;
+                break;
+            }
+            case 3: {
+                n4 = 14;
+                break;
+            }
+            case 4: {
+                n4 = 58;
+                break;
+            }
+            case 5: {
+                n4 = 5;
+                break;
+            }
+            case 6: {
+                n4 = 61;
+                break;
+            }
+            case 7: {
+                n4 = 16;
+                break;
+            }
+            case 8: {
+                n4 = 0;
+                break;
+            }
+            case 9: {
+                n4 = 35;
+                break;
+            }
+            case 10: {
+                n4 = 38;
+                break;
+            }
+            case 11: {
+                n4 = 17;
+                break;
+            }
+            case 12: {
+                n4 = 2;
+                break;
+            }
+            case 13: {
+                n4 = 8;
+                break;
+            }
+            case 14: {
+                n4 = 46;
+                break;
+            }
+            case 15: {
+                n4 = 59;
+                break;
+            }
+            case 16: {
+                n4 = 23;
+                break;
+            }
+            case 17: {
+                n4 = 34;
+                break;
+            }
+            case 18: {
+                n4 = 55;
+                break;
+            }
+            case 19: {
+                n4 = 52;
+                break;
+            }
+            case 20: {
+                n4 = 20;
+                break;
+            }
+            case 21: {
+                n4 = 56;
+                break;
+            }
+            case 22: {
+                n4 = 53;
+                break;
+            }
+            case 23: {
+                n4 = 27;
+                break;
+            }
+            case 24: {
+                n4 = 60;
+                break;
+            }
+            case 25: {
+                n4 = 28;
+                break;
+            }
+            case 26: {
+                n4 = 39;
+                break;
+            }
+            case 27: {
+                n4 = 19;
+                break;
+            }
+            case 28: {
+                n4 = 50;
+                break;
+            }
+            case 29: {
+                n4 = 57;
+                break;
+            }
+            case 30: {
+                n4 = 63;
+                break;
+            }
+            case 31: {
+                n4 = 40;
+                break;
+            }
+            case 32: {
+                n4 = 48;
+                break;
+            }
+            case 33: {
+                n4 = 62;
+                break;
+            }
+            case 34: {
+                n4 = 4;
+                break;
+            }
+            case 35: {
+                n4 = 37;
+                break;
+            }
+            case 36: {
+                n4 = 42;
+                break;
+            }
+            case 37: {
+                n4 = 32;
+                break;
+            }
+            case 38: {
+                n4 = 9;
+                break;
+            }
+            case 39: {
+                n4 = 29;
+                break;
+            }
+            case 40: {
+                n4 = 24;
+                break;
+            }
+            case 41: {
+                n4 = 3;
+                break;
+            }
+            case 42: {
+                n4 = 18;
+                break;
+            }
+            case 43: {
+                n4 = 22;
+                break;
+            }
+            case 44: {
+                n4 = 10;
+                break;
+            }
+            case 45: {
+                n4 = 25;
+                break;
+            }
+            case 46: {
+                n4 = 41;
+                break;
+            }
+            case 47: {
+                n4 = 13;
+                break;
+            }
+            case 48: {
+                n4 = 36;
+                break;
+            }
+            case 49: {
+                n4 = 49;
+                break;
+            }
+            case 50: {
+                n4 = 1;
+                break;
+            }
+            case 51: {
+                n4 = 51;
+                break;
+            }
+            case 52: {
+                n4 = 45;
+                break;
+            }
+            case 53: {
+                n4 = 54;
+                break;
+            }
+            case 54: {
+                n4 = 31;
+                break;
+            }
+            case 55: {
+                n4 = 30;
+                break;
+            }
+            case 56: {
+                n4 = 15;
+                break;
+            }
+            case 57: {
+                n4 = 26;
+                break;
+            }
+            case 58: {
+                n4 = 47;
+                break;
+            }
+            case 59: {
+                n4 = 44;
+                break;
+            }
+            case 60: {
+                n4 = 6;
+                break;
+            }
+            case 61: {
+                n4 = 12;
+                break;
+            }
+            case 62: {
+                n4 = 43;
+                break;
+            }
+            default: {
+                n4 = 21;
+            }
+        }
+        n6 = n4;
+        int[] nArray = new int[6];
+        int n7 = 0;
+        while (n7 < 6) {
+            n3 = 7 * (5 - n7);
+            n2 = (int)(l10 >>> n3 & 0x7FL);
+            if ((n2 -= n6) < 0) {
+                n2 += 128;
+            }
+            nArray[n7] = n2;
+            ++n7;
+        }
+        char[] cArray = ((String)object).toCharArray();
+        n3 = 0;
+        while (n3 < cArray.length) {
+            n2 = nArray[n3 % nArray.length];
+            if (n2 == 0) break;
+            cArray[n3] = (char)(cArray[n3] ^ n2);
+            ++n3;
+        }
+        jd.h[n5] = new String(cArray);
+        return n5;
+    }
+
+    private static Method d(Class clazz, String string, Class clazz2, int n2, Class[] classArray) {
+        Method method = jd.c(clazz, string, clazz2, n2, classArray);
+        if (method != null) {
+            return method;
+        }
+        Class<?>[] classArray2 = clazz.getInterfaces();
+        if (classArray2 != null) {
+            for (int i10 = 0; i10 < classArray2.length; ++i10) {
+                method = jd.d(classArray2[i10], string, clazz2, n2, classArray);
+                if (method == null) continue;
+                return method;
+            }
+        }
+        return null;
+    }
+
+    /*
+     * Works around MethodHandle LDC.
+     */
+    static MethodHandle cfr_ldc_0() {
+        try {
+            return MethodHandles.lookup().findStatic(jd.class, "b", MethodType.fromMethodDescriptorString("(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/invoke/MutableCallSite;Ljava/lang/String;Ljava/lang/invoke/MethodType;[Ljava/lang/Object;)Ljava/lang/Object;", null));
+        }
+        catch (NoSuchMethodException | IllegalAccessException except) {
+            throw new IllegalArgumentException(except);
+        }
+    }
+}
+

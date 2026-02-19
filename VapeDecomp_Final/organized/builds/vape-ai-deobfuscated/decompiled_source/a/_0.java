@@ -1,0 +1,677 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package a;
+
+import a.W;
+import com.app.resource.access.ResourceAccessController;
+import com.bytecode.analysis.BytecodeAnalyzer;
+import com.bytecode.exception.BytecodeProcessingException;
+import com.debugging.analysis.ExceptionAnalyzer;
+import com.deobfuscation.configuration.ConfigurationManager2137;
+import com.reflection.management.ClassPoolRegistry;
+import com.reflection.mapping.ReflectionClassMapper;
+import com.reflection.metadata.ReflectionMetadataResolver933;
+import com.system.resource.ResourceAllocationDispatcher;
+
+/*
+ * Duplicate member names - consider using --renamedupmembers true
+ */
+public abstract class _0
+implements W {
+    protected ClassPoolRegistry A;
+    protected String J;
+    protected BytecodeAnalyzer N;
+    protected ExceptionAnalyzer[] F;
+    protected ExceptionAnalyzer[] o;
+    protected int v;
+
+    private void n(String string, int n) throws BytecodeProcessingException {
+        block24: {
+            int n2;
+            char c;
+            block23: {
+                boolean bl;
+                block22: {
+                    block20: {
+                        block19: {
+                            c = string.charAt(n);
+                            try {
+                                if (c == ')') {
+                                    return;
+                                }
+                            }
+                            catch (BytecodeProcessingException bytecodeProcessingException) {
+                                throw _0.a(bytecodeProcessingException);
+                            }
+                            n2 = n;
+                            bl = false;
+                            while (c == '[') {
+                                bl = true;
+                                c = string.charAt(++n2);
+                            }
+                            if (c == 'L') {
+                                n2 = string.indexOf(59, n2) + 1;
+                                try {
+                                    if (n2 <= 0) {
+                                        throw new IndexOutOfBoundsException("bad descriptor");
+                                    }
+                                    break block19;
+                                }
+                                catch (BytecodeProcessingException bytecodeProcessingException) {
+                                    throw _0.a(bytecodeProcessingException);
+                                }
+                            }
+                            ++n2;
+                        }
+                        try {
+                            block21: {
+                                try {
+                                    try {
+                                        this.n(string, n2);
+                                        if (bl) break block20;
+                                        if (c == 'J') break block21;
+                                    }
+                                    catch (BytecodeProcessingException bytecodeProcessingException) {
+                                        throw _0.a(bytecodeProcessingException);
+                                    }
+                                    if (c != 'D') break block20;
+                                }
+                                catch (BytecodeProcessingException bytecodeProcessingException) {
+                                    throw _0.a(bytecodeProcessingException);
+                                }
+                            }
+                            this.v -= 2;
+                            break block22;
+                        }
+                        catch (BytecodeProcessingException bytecodeProcessingException) {
+                            throw _0.a(bytecodeProcessingException);
+                        }
+                    }
+                    --this.v;
+                }
+                try {
+                    if (!bl) break block23;
+                    this.o[this.v].e(string.substring(n, n2), this.A);
+                    break block24;
+                }
+                catch (BytecodeProcessingException bytecodeProcessingException) {
+                    throw _0.a(bytecodeProcessingException);
+                }
+            }
+            try {
+                if (c == 'L') {
+                    this.o[this.v].e(string.substring(n + 1, n2 - 1).replace('/', '.'), this.A);
+                }
+            }
+            catch (BytecodeProcessingException bytecodeProcessingException) {
+                throw _0.a(bytecodeProcessingException);
+            }
+        }
+    }
+
+    private int k(int n) {
+        this.o[this.v++] = this.F[n];
+        return 2;
+    }
+
+    /*
+     * Exception decompiling
+     */
+    private int O(int var1_1, byte[] var2_2, int var3_3) throws BytecodeProcessingException {
+        /*
+         * This method has failed to decompile.  When submitting a bug report, please provide this stack trace, and (if you hold appropriate legal rights) the relevant class file.
+         * 
+         * org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 2[SWITCH]
+         *     at org.benf.cfr.reader.bytecode.analysis.opgraph.Op04StructuredStatement.processEndingBlocks(Op04StructuredStatement.java:435)
+         *     at org.benf.cfr.reader.bytecode.analysis.opgraph.Op04StructuredStatement.buildNestedBlocks(Op04StructuredStatement.java:484)
+         *     at org.benf.cfr.reader.bytecode.analysis.opgraph.Op03SimpleStatement.createInitialStructuredBlock(Op03SimpleStatement.java:736)
+         *     at org.benf.cfr.reader.bytecode.CodeAnalyser.getAnalysisInner(CodeAnalyser.java:850)
+         *     at org.benf.cfr.reader.bytecode.CodeAnalyser.getAnalysisOrWrapFail(CodeAnalyser.java:278)
+         *     at org.benf.cfr.reader.bytecode.CodeAnalyser.getAnalysis(CodeAnalyser.java:201)
+         *     at org.benf.cfr.reader.entities.attributes.AttributeCode.analyse(AttributeCode.java:94)
+         *     at org.benf.cfr.reader.entities.Method.analyse(Method.java:531)
+         *     at org.benf.cfr.reader.entities.ClassFile.analyseMid(ClassFile.java:1055)
+         *     at org.benf.cfr.reader.entities.ClassFile.analyseTop(ClassFile.java:942)
+         *     at org.benf.cfr.reader.Driver.doJarVersionTypes(Driver.java:257)
+         *     at org.benf.cfr.reader.Driver.doJar(Driver.java:139)
+         *     at org.benf.cfr.reader.CfrDriverImpl.analyse(CfrDriverImpl.java:76)
+         *     at org.benf.cfr.reader.Main.main(Main.java:54)
+         */
+        throw new IllegalStateException("Decompilation failed");
+    }
+
+    protected void W(int n, byte[] byArray, int n2, int n3, int n4) throws BytecodeProcessingException {
+    }
+
+    protected void l(int n, byte[] byArray) throws BytecodeProcessingException {
+    }
+
+    private int F(int n, byte[] byArray) {
+        int n2 = ConfigurationManager2137.M(byArray, n + 1);
+        int n3 = byArray[n + 3] & 0xFF;
+        this.v -= n3 - 1;
+        String string = this.N.u(n2).replace('.', '/');
+        this.o[this.v - 1] = new ReflectionClassMapper(string);
+        return 4;
+    }
+
+    private int h(int n, byte[] byArray, ExceptionAnalyzer exceptionAnalyzer) {
+        int n2 = byArray[n + 1] & 0xFF;
+        return this.U(n2, exceptionAnalyzer);
+    }
+
+    private int l(int n, byte[] byArray) throws BytecodeProcessingException {
+        int n2 = ConfigurationManager2137.M(byArray, n + 1);
+        String string = this.N.G(n2);
+        this.n(string, 1);
+        this.B(string);
+        return 5;
+    }
+
+    protected void D(int n, byte[] byArray, int n2) throws BytecodeProcessingException {
+    }
+
+    private int P(ExceptionAnalyzer exceptionAnalyzer, byte[] byArray, int n) {
+        int n2 = byArray[n + 1] & 0xFF;
+        return this.G(n2, exceptionAnalyzer);
+    }
+
+    public _0(_0 _02) {
+        this.A = _02.A;
+        this.N = _02.N;
+        this.J = _02.J;
+        this.v = _02.v;
+        this.o = ExceptionAnalyzer.i(_02.o.length);
+        this.F = ExceptionAnalyzer.i(_02.F.length);
+    }
+
+    private int J(int n, byte[] byArray) throws BytecodeProcessingException {
+        int n2 = ConfigurationManager2137.M(byArray, n + 1);
+        String string = this.N.b(n2);
+        this.n(string, 1);
+        String string2 = this.N.f(n2);
+        this.o[--this.v].e(string2, this.A);
+        this.B(string);
+        return 5;
+    }
+
+    private void J(int n) {
+        block15: {
+            int n2;
+            block20: {
+                block19: {
+                    block18: {
+                        block17: {
+                            block16: {
+                                block14: {
+                                    ExceptionAnalyzer[] exceptionAnalyzerArray = this.o;
+                                    n2 = this.N.b(n);
+                                    try {
+                                        if (n2 != 8) break block14;
+                                        exceptionAnalyzerArray[this.v++] = new ReflectionClassMapper("java.lang.String");
+                                        break block15;
+                                    }
+                                    catch (ArrayIndexOutOfBoundsException arrayIndexOutOfBoundsException) {
+                                        throw _0.a(arrayIndexOutOfBoundsException);
+                                    }
+                                }
+                                try {
+                                    if (n2 != 3) break block16;
+                                    exceptionAnalyzerArray[this.v++] = _0.n;
+                                    break block15;
+                                }
+                                catch (ArrayIndexOutOfBoundsException arrayIndexOutOfBoundsException) {
+                                    throw _0.a(arrayIndexOutOfBoundsException);
+                                }
+                            }
+                            try {
+                                if (n2 != 4) break block17;
+                                exceptionAnalyzerArray[this.v++] = q;
+                                break block15;
+                            }
+                            catch (ArrayIndexOutOfBoundsException arrayIndexOutOfBoundsException) {
+                                throw _0.a(arrayIndexOutOfBoundsException);
+                            }
+                        }
+                        try {
+                            if (n2 != 5) break block18;
+                            exceptionAnalyzerArray[this.v++] = Z;
+                            exceptionAnalyzerArray[this.v++] = C;
+                            break block15;
+                        }
+                        catch (ArrayIndexOutOfBoundsException arrayIndexOutOfBoundsException) {
+                            throw _0.a(arrayIndexOutOfBoundsException);
+                        }
+                    }
+                    try {
+                        if (n2 != 6) break block19;
+                        exceptionAnalyzerArray[this.v++] = w;
+                        exceptionAnalyzerArray[this.v++] = C;
+                        break block15;
+                    }
+                    catch (ArrayIndexOutOfBoundsException arrayIndexOutOfBoundsException) {
+                        throw _0.a(arrayIndexOutOfBoundsException);
+                    }
+                }
+                try {
+                    if (n2 != 7) break block20;
+                    exceptionAnalyzerArray[this.v++] = new ReflectionClassMapper("java.lang.Class");
+                    break block15;
+                }
+                catch (ArrayIndexOutOfBoundsException arrayIndexOutOfBoundsException) {
+                    throw _0.a(arrayIndexOutOfBoundsException);
+                }
+            }
+            if (n2 == 17) {
+                String string = this.N.D(n);
+                this.B(string);
+            } else {
+                throw new RuntimeException("bad LDC: " + n2);
+            }
+        }
+    }
+
+    private void e(ExceptionAnalyzer exceptionAnalyzer, int n) {
+        int n2;
+        exceptionAnalyzer.j(n);
+        try {
+            for (n2 = 0; n2 < this.v; ++n2) {
+                this.o[n2].j(n);
+            }
+        }
+        catch (ArrayIndexOutOfBoundsException arrayIndexOutOfBoundsException) {
+            throw _0.a(arrayIndexOutOfBoundsException);
+        }
+        try {
+            for (n2 = 0; n2 < this.F.length; ++n2) {
+                this.F[n2].j(n);
+            }
+        }
+        catch (ArrayIndexOutOfBoundsException arrayIndexOutOfBoundsException) {
+            throw _0.a(arrayIndexOutOfBoundsException);
+        }
+    }
+
+    private void x(int n, byte[] byArray, ExceptionAnalyzer exceptionAnalyzer) {
+        int n2 = ConfigurationManager2137.M(byArray, n + 2);
+        this.G(n2, exceptionAnalyzer);
+    }
+
+    protected void G(int n, byte[] byArray) throws BytecodeProcessingException {
+    }
+
+    /*
+     * Exception decompiling
+     */
+    private int a(int var1_1, byte[] var2_2, int var3_3) throws BytecodeProcessingException {
+        /*
+         * This method has failed to decompile.  When submitting a bug report, please provide this stack trace, and (if you hold appropriate legal rights) the relevant class file.
+         * 
+         * org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 3[SWITCH]
+         *     at org.benf.cfr.reader.bytecode.analysis.opgraph.Op04StructuredStatement.processEndingBlocks(Op04StructuredStatement.java:435)
+         *     at org.benf.cfr.reader.bytecode.analysis.opgraph.Op04StructuredStatement.buildNestedBlocks(Op04StructuredStatement.java:484)
+         *     at org.benf.cfr.reader.bytecode.analysis.opgraph.Op03SimpleStatement.createInitialStructuredBlock(Op03SimpleStatement.java:736)
+         *     at org.benf.cfr.reader.bytecode.CodeAnalyser.getAnalysisInner(CodeAnalyser.java:850)
+         *     at org.benf.cfr.reader.bytecode.CodeAnalyser.getAnalysisOrWrapFail(CodeAnalyser.java:278)
+         *     at org.benf.cfr.reader.bytecode.CodeAnalyser.getAnalysis(CodeAnalyser.java:201)
+         *     at org.benf.cfr.reader.entities.attributes.AttributeCode.analyse(AttributeCode.java:94)
+         *     at org.benf.cfr.reader.entities.Method.analyse(Method.java:531)
+         *     at org.benf.cfr.reader.entities.ClassFile.analyseMid(ClassFile.java:1055)
+         *     at org.benf.cfr.reader.entities.ClassFile.analyseTop(ClassFile.java:942)
+         *     at org.benf.cfr.reader.Driver.doJarVersionTypes(Driver.java:257)
+         *     at org.benf.cfr.reader.Driver.doJar(Driver.java:139)
+         *     at org.benf.cfr.reader.CfrDriverImpl.analyse(CfrDriverImpl.java:76)
+         *     at org.benf.cfr.reader.Main.main(Main.java:54)
+         */
+        throw new IllegalStateException("Decompilation failed");
+    }
+
+    protected void q(int n, byte[] byArray, int n2) throws BytecodeProcessingException {
+    }
+
+    private int H(int n, byte[] byArray, boolean bl) throws BytecodeProcessingException {
+        int n2 = ConfigurationManager2137.M(byArray, n + 1);
+        String string = this.N.W(n2);
+        this.n(string, 1);
+        if (bl) {
+            ExceptionAnalyzer exceptionAnalyzer;
+            String string2;
+            block9: {
+                block8: {
+                    string2 = this.N.M(n2);
+                    exceptionAnalyzer = this.o[--this.v];
+                    try {
+                        try {
+                            if (!(exceptionAnalyzer instanceof ResourceAccessController) || !exceptionAnalyzer.p()) break block8;
+                        }
+                        catch (BytecodeProcessingException bytecodeProcessingException) {
+                            throw _0.a(bytecodeProcessingException);
+                        }
+                        this.e(exceptionAnalyzer, ((ResourceAccessController)exceptionAnalyzer).l());
+                        break block9;
+                    }
+                    catch (BytecodeProcessingException bytecodeProcessingException) {
+                        throw _0.a(bytecodeProcessingException);
+                    }
+                }
+                try {
+                    if (exceptionAnalyzer instanceof ResourceAllocationDispatcher) {
+                        this.e(exceptionAnalyzer, ((ResourceAllocationDispatcher)exceptionAnalyzer).F());
+                    }
+                }
+                catch (BytecodeProcessingException bytecodeProcessingException) {
+                    throw _0.a(bytecodeProcessingException);
+                }
+            }
+            exceptionAnalyzer.e(string2, this.A);
+        }
+        this.B(string);
+        return 3;
+    }
+
+    public _0(ClassPoolRegistry classPoolRegistry, BytecodeAnalyzer bytecodeAnalyzer, int n, int n2, String string) {
+        this.A = classPoolRegistry;
+        this.N = bytecodeAnalyzer;
+        this.J = string;
+        this.v = 0;
+        this.o = ExceptionAnalyzer.i(n);
+        this.F = ExceptionAnalyzer.i(n2);
+    }
+
+    /*
+     * Exception decompiling
+     */
+    private void B(String var1_1) {
+        /*
+         * This method has failed to decompile.  When submitting a bug report, please provide this stack trace, and (if you hold appropriate legal rights) the relevant class file.
+         * 
+         * org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 2[SWITCH]
+         *     at org.benf.cfr.reader.bytecode.analysis.opgraph.Op04StructuredStatement.processEndingBlocks(Op04StructuredStatement.java:435)
+         *     at org.benf.cfr.reader.bytecode.analysis.opgraph.Op04StructuredStatement.buildNestedBlocks(Op04StructuredStatement.java:484)
+         *     at org.benf.cfr.reader.bytecode.analysis.opgraph.Op03SimpleStatement.createInitialStructuredBlock(Op03SimpleStatement.java:736)
+         *     at org.benf.cfr.reader.bytecode.CodeAnalyser.getAnalysisInner(CodeAnalyser.java:850)
+         *     at org.benf.cfr.reader.bytecode.CodeAnalyser.getAnalysisOrWrapFail(CodeAnalyser.java:278)
+         *     at org.benf.cfr.reader.bytecode.CodeAnalyser.getAnalysis(CodeAnalyser.java:201)
+         *     at org.benf.cfr.reader.entities.attributes.AttributeCode.analyse(AttributeCode.java:94)
+         *     at org.benf.cfr.reader.entities.Method.analyse(Method.java:531)
+         *     at org.benf.cfr.reader.entities.ClassFile.analyseMid(ClassFile.java:1055)
+         *     at org.benf.cfr.reader.entities.ClassFile.analyseTop(ClassFile.java:942)
+         *     at org.benf.cfr.reader.Driver.doJarVersionTypes(Driver.java:257)
+         *     at org.benf.cfr.reader.Driver.doJar(Driver.java:139)
+         *     at org.benf.cfr.reader.CfrDriverImpl.analyse(CfrDriverImpl.java:76)
+         *     at org.benf.cfr.reader.Main.main(Main.java:54)
+         */
+        throw new IllegalStateException("Decompilation failed");
+    }
+
+    protected void r(int n, byte[] byArray, int n2, int n3, int n4) throws BytecodeProcessingException {
+    }
+
+    private void c(boolean bl, int n) throws BytecodeProcessingException {
+        if (bl) {
+            String string = this.N.g(n);
+            this.o[--this.v].e(string, this.A);
+        }
+    }
+
+    /*
+     * Exception decompiling
+     */
+    private int r(int var1_1, byte[] var2_2, int var3_3) {
+        /*
+         * This method has failed to decompile.  When submitting a bug report, please provide this stack trace, and (if you hold appropriate legal rights) the relevant class file.
+         * 
+         * org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 2[SWITCH]
+         *     at org.benf.cfr.reader.bytecode.analysis.opgraph.Op04StructuredStatement.processEndingBlocks(Op04StructuredStatement.java:435)
+         *     at org.benf.cfr.reader.bytecode.analysis.opgraph.Op04StructuredStatement.buildNestedBlocks(Op04StructuredStatement.java:484)
+         *     at org.benf.cfr.reader.bytecode.analysis.opgraph.Op03SimpleStatement.createInitialStructuredBlock(Op03SimpleStatement.java:736)
+         *     at org.benf.cfr.reader.bytecode.CodeAnalyser.getAnalysisInner(CodeAnalyser.java:850)
+         *     at org.benf.cfr.reader.bytecode.CodeAnalyser.getAnalysisOrWrapFail(CodeAnalyser.java:278)
+         *     at org.benf.cfr.reader.bytecode.CodeAnalyser.getAnalysis(CodeAnalyser.java:201)
+         *     at org.benf.cfr.reader.entities.attributes.AttributeCode.analyse(AttributeCode.java:94)
+         *     at org.benf.cfr.reader.entities.Method.analyse(Method.java:531)
+         *     at org.benf.cfr.reader.entities.ClassFile.analyseMid(ClassFile.java:1055)
+         *     at org.benf.cfr.reader.entities.ClassFile.analyseTop(ClassFile.java:942)
+         *     at org.benf.cfr.reader.Driver.doJarVersionTypes(Driver.java:257)
+         *     at org.benf.cfr.reader.Driver.doJar(Driver.java:139)
+         *     at org.benf.cfr.reader.CfrDriverImpl.analyse(CfrDriverImpl.java:76)
+         *     at org.benf.cfr.reader.Main.main(Main.java:54)
+         */
+        throw new IllegalStateException("Decompilation failed");
+    }
+
+    private void N(int n, byte[] byArray, ExceptionAnalyzer exceptionAnalyzer) {
+        int n2 = ConfigurationManager2137.M(byArray, n + 2);
+        this.U(n2, exceptionAnalyzer);
+    }
+
+    private int C(int n, byte[] byArray) {
+        String string;
+        int n2 = this.v - 1;
+        switch (byArray[n + 1] & 0xFF) {
+            case 4: {
+                string = "[Z";
+                break;
+            }
+            case 5: {
+                string = "[C";
+                break;
+            }
+            case 6: {
+                string = "[F";
+                break;
+            }
+            case 7: {
+                string = "[D";
+                break;
+            }
+            case 8: {
+                string = "[B";
+                break;
+            }
+            case 9: {
+                string = "[S";
+                break;
+            }
+            case 10: {
+                string = "[I";
+                break;
+            }
+            case 11: {
+                string = "[J";
+                break;
+            }
+            default: {
+                throw new RuntimeException("bad newarray");
+            }
+        }
+        this.o[n2] = new ReflectionClassMapper(string);
+        return 2;
+    }
+
+    private static Exception a(Exception exception) {
+        return exception;
+    }
+
+    protected int k(int n, byte[] byArray) throws BytecodeProcessingException {
+        int n2;
+        try {
+            n2 = byArray[n] & 0xFF;
+            if (n2 < 54) {
+                return this.O(n, byArray, n2);
+            }
+            try {
+                if (n2 < 96) {
+                    return this.a(n, byArray, n2);
+                }
+            }
+            catch (BytecodeProcessingException bytecodeProcessingException) {
+                throw _0.a(bytecodeProcessingException);
+            }
+        }
+        catch (ArrayIndexOutOfBoundsException arrayIndexOutOfBoundsException) {
+            throw new BytecodeProcessingException("inconsistent stack height " + arrayIndexOutOfBoundsException.getMessage(), (Throwable)arrayIndexOutOfBoundsException);
+        }
+        try {
+            if (n2 < 148) {
+                return this.r(n, byArray, n2);
+            }
+        }
+        catch (BytecodeProcessingException bytecodeProcessingException) {
+            throw _0.a(bytecodeProcessingException);
+        }
+        return this.p(n, byArray, n2);
+    }
+
+    private int M(int n, byte[] byArray, boolean bl) throws BytecodeProcessingException {
+        int n2;
+        block6: {
+            char c;
+            String string;
+            block5: {
+                n2 = ConfigurationManager2137.M(byArray, n + 1);
+                string = this.N.v(n2);
+                this.v -= ReflectionMetadataResolver933.q(string);
+                c = string.charAt(0);
+                try {
+                    if (c != 'L') break block5;
+                    this.o[this.v].e(_0.U(string, 0), this.A);
+                    break block6;
+                }
+                catch (BytecodeProcessingException bytecodeProcessingException) {
+                    throw _0.a(bytecodeProcessingException);
+                }
+            }
+            try {
+                if (c == '[') {
+                    this.o[this.v].e(string, this.A);
+                }
+            }
+            catch (BytecodeProcessingException bytecodeProcessingException) {
+                throw _0.a(bytecodeProcessingException);
+            }
+        }
+        this.c(bl, n2);
+        return 3;
+    }
+
+    private void W(int n, int n2) {
+        int n3;
+        ExceptionAnalyzer[] exceptionAnalyzerArray = this.o;
+        int n4 = n3 - n2;
+        try {
+            for (n3 = this.v - 1; n3 > n4; --n3) {
+                exceptionAnalyzerArray[n3 + n] = exceptionAnalyzerArray[n3];
+            }
+        }
+        catch (ArrayIndexOutOfBoundsException arrayIndexOutOfBoundsException) {
+            throw _0.a(arrayIndexOutOfBoundsException);
+        }
+    }
+
+    protected void S(int n, byte[] byArray) throws BytecodeProcessingException {
+    }
+
+    protected void q(int n, byte[] byArray) throws BytecodeProcessingException {
+    }
+
+    private static String U(String string, int n) {
+        return string.substring(n + 1, string.length() - 1).replace('/', '.');
+    }
+
+    private int r(int n) {
+        --this.v;
+        this.F[n] = this.o[this.v];
+        return 2;
+    }
+
+    /*
+     * Exception decompiling
+     */
+    private int h(int var1_1, byte[] var2_2) throws BytecodeProcessingException {
+        /*
+         * This method has failed to decompile.  When submitting a bug report, please provide this stack trace, and (if you hold appropriate legal rights) the relevant class file.
+         * 
+         * org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+         *     at org.benf.cfr.reader.bytecode.analysis.opgraph.Op04StructuredStatement.processEndingBlocks(Op04StructuredStatement.java:435)
+         *     at org.benf.cfr.reader.bytecode.analysis.opgraph.Op04StructuredStatement.buildNestedBlocks(Op04StructuredStatement.java:484)
+         *     at org.benf.cfr.reader.bytecode.analysis.opgraph.Op03SimpleStatement.createInitialStructuredBlock(Op03SimpleStatement.java:736)
+         *     at org.benf.cfr.reader.bytecode.CodeAnalyser.getAnalysisInner(CodeAnalyser.java:850)
+         *     at org.benf.cfr.reader.bytecode.CodeAnalyser.getAnalysisOrWrapFail(CodeAnalyser.java:278)
+         *     at org.benf.cfr.reader.bytecode.CodeAnalyser.getAnalysis(CodeAnalyser.java:201)
+         *     at org.benf.cfr.reader.entities.attributes.AttributeCode.analyse(AttributeCode.java:94)
+         *     at org.benf.cfr.reader.entities.Method.analyse(Method.java:531)
+         *     at org.benf.cfr.reader.entities.ClassFile.analyseMid(ClassFile.java:1055)
+         *     at org.benf.cfr.reader.entities.ClassFile.analyseTop(ClassFile.java:942)
+         *     at org.benf.cfr.reader.Driver.doJarVersionTypes(Driver.java:257)
+         *     at org.benf.cfr.reader.Driver.doJar(Driver.java:139)
+         *     at org.benf.cfr.reader.CfrDriverImpl.analyse(CfrDriverImpl.java:76)
+         *     at org.benf.cfr.reader.Main.main(Main.java:54)
+         */
+        throw new IllegalStateException("Decompilation failed");
+    }
+
+    private int G(int n, ExceptionAnalyzer exceptionAnalyzer) {
+        try {
+            this.o[this.v++] = exceptionAnalyzer;
+            if (exceptionAnalyzer.n()) {
+                this.o[this.v++] = C;
+            }
+        }
+        catch (ArrayIndexOutOfBoundsException arrayIndexOutOfBoundsException) {
+            throw _0.a(arrayIndexOutOfBoundsException);
+        }
+        return 2;
+    }
+
+    private int U(int n, ExceptionAnalyzer exceptionAnalyzer) {
+        try {
+            --this.v;
+            this.F[n] = exceptionAnalyzer;
+            if (exceptionAnalyzer.n()) {
+                --this.v;
+                this.F[n + 1] = C;
+            }
+        }
+        catch (ArrayIndexOutOfBoundsException arrayIndexOutOfBoundsException) {
+            throw _0.a(arrayIndexOutOfBoundsException);
+        }
+        return 2;
+    }
+
+    /*
+     * Exception decompiling
+     */
+    private int p(int var1_1, byte[] var2_2, int var3_3) throws BytecodeProcessingException {
+        /*
+         * This method has failed to decompile.  When submitting a bug report, please provide this stack trace, and (if you hold appropriate legal rights) the relevant class file.
+         * 
+         * org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+         *     at org.benf.cfr.reader.bytecode.analysis.opgraph.Op04StructuredStatement.processEndingBlocks(Op04StructuredStatement.java:435)
+         *     at org.benf.cfr.reader.bytecode.analysis.opgraph.Op04StructuredStatement.buildNestedBlocks(Op04StructuredStatement.java:484)
+         *     at org.benf.cfr.reader.bytecode.analysis.opgraph.Op03SimpleStatement.createInitialStructuredBlock(Op03SimpleStatement.java:736)
+         *     at org.benf.cfr.reader.bytecode.CodeAnalyser.getAnalysisInner(CodeAnalyser.java:850)
+         *     at org.benf.cfr.reader.bytecode.CodeAnalyser.getAnalysisOrWrapFail(CodeAnalyser.java:278)
+         *     at org.benf.cfr.reader.bytecode.CodeAnalyser.getAnalysis(CodeAnalyser.java:201)
+         *     at org.benf.cfr.reader.entities.attributes.AttributeCode.analyse(AttributeCode.java:94)
+         *     at org.benf.cfr.reader.entities.Method.analyse(Method.java:531)
+         *     at org.benf.cfr.reader.entities.ClassFile.analyseMid(ClassFile.java:1055)
+         *     at org.benf.cfr.reader.entities.ClassFile.analyseTop(ClassFile.java:942)
+         *     at org.benf.cfr.reader.Driver.doJarVersionTypes(Driver.java:257)
+         *     at org.benf.cfr.reader.Driver.doJar(Driver.java:139)
+         *     at org.benf.cfr.reader.CfrDriverImpl.analyse(CfrDriverImpl.java:76)
+         *     at org.benf.cfr.reader.Main.main(Main.java:54)
+         */
+        throw new IllegalStateException("Decompilation failed");
+    }
+
+    private int d(int n, byte[] byArray, boolean bl) throws BytecodeProcessingException {
+        int n2 = ConfigurationManager2137.M(byArray, n + 1);
+        this.c(bl, n2);
+        String string = this.N.v(n2);
+        this.B(string);
+        return 3;
+    }
+}
+

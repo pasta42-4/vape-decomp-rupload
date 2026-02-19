@@ -1,0 +1,15 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package com.app.security.authorization;
+
+import com.crypto.protocol.CryptoProtocolEngine;
+import com.reflection.metadata.ReflectionMetadataResolver;
+
+public class AuthorizationPolicyEvaluator
+extends CryptoProtocolEngine {
+    public AuthorizationPolicyEvaluator() {
+        super(ReflectionMetadataResolver.EA);
+    }
+}
+

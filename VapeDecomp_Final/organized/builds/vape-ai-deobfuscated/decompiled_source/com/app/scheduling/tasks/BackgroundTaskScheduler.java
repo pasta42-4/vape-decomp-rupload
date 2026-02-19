@@ -1,0 +1,15 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package com.app.scheduling.tasks;
+
+import com.crypto.protocol.CryptoProtocolEngine;
+import com.reflection.metadata.ReflectionMetadataResolver;
+
+public class BackgroundTaskScheduler
+extends CryptoProtocolEngine {
+    public BackgroundTaskScheduler() {
+        super(ReflectionMetadataResolver.Ep);
+    }
+}
+

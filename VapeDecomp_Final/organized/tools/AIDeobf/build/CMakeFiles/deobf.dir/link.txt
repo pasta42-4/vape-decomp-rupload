@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -march=native -pthread -Wl,--dependency-file=CMakeFiles/deobf.dir/link.d CMakeFiles/deobf.dir/src/main.cpp.o -o deobf  /usr/lib/libcurl.so /usr/lib/libarchive.so -lpthread /usr/lib/libcurl.so

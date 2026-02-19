@@ -1,3 +1,6 @@
+Original was uploaded by LinkNavi, i just repuloaded it. My discord is spaghetti1987
+
+
 # Vape V4 Client Decompilation Guide
 
 **Author:** LinkNavi 

@@ -1,0 +1,5639 @@
+Summary for ./vape-deobfuscated/output.jar
+Decompiled with CFR 0.152
+
+
+com.memory.management.BufferOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.negotiation.CryptoAlgorithmNegotiator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.traffic.NetworkTrafficClassifier
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.math.computation.GeometricComputationEngine920
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.integration.interop.CrossPlatformInteroperabilityManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.routing.ContextualDataBroker166
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.enums.SecurityStateEnum
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.dataprocessing.resolution.DynamicTypeResolver
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+com.security.cipher.CipherParameterGenerator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.protocol.NetworkPacketInterceptor
+----------------------------
+
+K(com.data.contract.DataTransformationContract2366 )
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.algorithm.CryptoAlgorithmRegistry851
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.analytics.calibration.MetricCalibrationEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.protocol.SecurityProtocolMediator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptographicKeyManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.keyexchange.CryptoKeyExchangeManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.compression.AdaptiveCompressionEngine1681
+----------------------------
+
+R(int int int )
+  Unable to fully structure code
+
+
+a._b
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.concurrency.filtering.ConcurrentFilteringCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.config.CryptoConfigurationEnum
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.wJ
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.metadata.mapping.ObjectMetadataMapper
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.spatial.mapping.SpatialCoordinateMapper
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.protocol.NetworkProtocolEncoder
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+com.network.secure.SecureProtocolNegotiator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.configuration.resolver.ConfigurationProfileResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.module.dynamic.DynamicModuleLoader
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.handler.MethodIntrospectionHandler
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.cipher.CryptographicTransformer1102
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.decoding.NetworkMessageDecoder
+----------------------------
+
+decode(io.netty.channel.ChannelHandlerContext io.netty.buffer.ByteBuf java.util.List<java.lang.Object> )
+  Loose catch block
+
+
+a.F9
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.security.NetworkSecurityValidator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+com.data.streaming.DataStreamInterceptor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.w1
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.dynamic.ReflectiveMethodInvoker522
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+com.security.session.CipherSessionManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.indexing.metadata.MetadataIndexingService
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.B2
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.xI
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+J(com.network.event.NetworkEventDispatcher )
+  Unable to fully structure code
+  Could not resolve type clashes
+d(com.network.event.NetworkEventDispatcher )
+  Unable to fully structure code
+
+
+com.crypto.utils.CipherEncryptionUtility
+----------------------------
+
+W(com.system.extensions.ExtendedApiResolver int java.lang.String char[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 14[SWITCH]
+m(com.bytecode.transformation.BytecodeInstrumentationEngine com.system.monitoring.SystemHealthMonitor2402 int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 54[SWITCH]
+D(int java.lang.Object[] int char[] com.security.exchange.CryptoKeyExchangeMapping[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+g(com.system.monitoring.SystemHealthMonitor2402 )
+  Unable to fully structure code
+<init>(byte[] int boolean )
+  Unable to fully structure code
+D(int char[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 2[SWITCH]
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.protocol.NetworkProtocolDecoder345
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptoContextResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.protocol.NetworkProtocolEncoder688
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.event.dispatch.EventDispatchOrchestrator394
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.math.computation.NumericComputationFramework
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+t(com.math.computation.NumericComputationFramework )
+  Unable to fully structure code
+
+
+com.security.crypto.CryptographicTransformer219
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.Pi
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.P6
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+com.security.transform.SecureDataTransformer601
+----------------------------
+
+<init>()
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+com.concurrent.task.AsynchronousTaskCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.auth.state.AuthenticationStateManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.processing.numeric.NumericTransformationEngine434
+----------------------------
+
+c(java.lang.String double double double double boolean java.awt.Color java.awt.Color )
+  Unable to fully structure code
+
+
+com.rendering.context.ContextualRenderingMediator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+c(a.KB )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 19[SWITCH]
+
+
+com.security.resolution.CryptoContextResolver520
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.context.mapping.AdaptiveContextMapper
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.context.CryptoContextManager989
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.P_
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+a._0
+----------------------------
+
+O(int byte[] int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 2[SWITCH]
+a(int byte[] int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 3[SWITCH]
+B(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 2[SWITCH]
+r(int byte[] int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 2[SWITCH]
+h(int byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+p(int byte[] int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+
+
+com.network.communication.AdaptiveCommunicationManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.resource.ResourceAllocationTracker144
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.session.CryptographicSessionManager199
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.BF
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.resource.ResourceAllocationCoordinator954
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.computation.numeric.NumericComputationEngine534
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.adaptive.AdaptiveCryptoNegotiator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+D(a.KB )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [16[TRYBLOCK]], but top level block is 31[SWITCH]
+
+
+a.XD
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.tokenization.CryptographicTokenGenerator186
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.config.CryptoConfigurationRegistry383
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.transmission.TransmissionProtocolHandler
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.synchronization.TransactionalDataSynchronizer
+----------------------------
+
+<init>()
+  Unable to fully structure code
+  Could not resolve type clashes
+<clinit>()
+  Unable to fully structure code
+
+
+com.compression.adaptive.AdaptiveCompressionManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.distributed.identity.DistributedIdentityManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+F(boolean )
+  Unable to fully structure code
+
+
+com.system.resource.ResourceAllocationTracker748
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.collaboration.management.CollaborativeResourceCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.metadata.extraction.MetadataExtractionService
+----------------------------
+
+<init>()
+  Unable to fully structure code
+  Could not resolve type clashes
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.utils.TypeInspectionUtility
+----------------------------
+
+j(java.lang.String int[] int[] java.lang.String[] )
+  Loose catch block
+y(char )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+
+
+com.security.config.CryptoAlgorithmConfiguration
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.ff
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.resource.management.ResourceAllocationCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.routing.NetworkPacketRouter
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.encryption.CryptographicStateManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+com.reflection.metadata.ClassMetadataResolver731
+----------------------------
+
+Q(java.lang.String byte[] )
+  Loose catch block
+
+
+com.network.protocol.ProtocolMessageTransformer
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.util.encoding.StringObfuscationUtility
+----------------------------
+
+D(java.lang.ClassLoader java.lang.String byte[] )
+  Loose catch block
+
+
+com.metadata.management.MetadataOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.Pd
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+a.TR
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.negotiation.CryptoParameterNegotiator
+----------------------------
+
+<init>()
+  Unable to fully structure code
+  Could not resolve type clashes
+<clinit>()
+  Unable to fully structure code
+
+
+com.app.error.translation.ExceptionMappingTranslator
+----------------------------
+
+O()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [5[CASE]], but top level block is 2[TRYBLOCK]
+C()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+
+
+com.protocol.registry.ProtocolEnumerationRegistry
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.GC
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.config.management.ConfigurationParameterManager454
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.simulation.core.ModelSimulationEngine
+----------------------------
+
+q(a.Qh com.network.protocol.NetworkProtocolNegotiator a.N9 com.system.config.AdaptiveConfigurationManager )
+  Unable to fully structure code
+O(a.KB )
+  Unable to fully structure code
+T(com.network.protocol.NetworkProtocolNegotiator com.security.crypto.CipherContextManager784 com.runtime.context.LightweightExecutionContext )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [286[DOLOOP]], but top level block is 99[TRYBLOCK]
+p(int com.resource.management.DynamicResourceRegistry com.network.protocol.NetworkProtocolNegotiator com.runtime.context.LightweightExecutionContext java.util.ArrayList<a.N9> a.Qh com.system.configuration.SystemConfigurationOrchestrator )
+  Could not resolve type clashes
+  Loose catch block
+<clinit>()
+  Unable to fully structure code
+
+
+a.ZB
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.cryptography.EncryptionKeyGenerator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptographicTransformer406
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.wx
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.j_
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.math.orchestration.NumericTransformationOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.BQ
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.conversion.TemporalDataTransformer
+----------------------------
+
+f(com.google.gson.JsonElement )
+  Loose catch block
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.cipher.CipherConfigurationResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.stream.CipherStreamProcessor327
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.encoding.NetworkPacketEncoder
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.encoding.NumericEncodingSpecification
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.advanced.computation.ComplexComputationResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.event.dispatch.EventDispatchCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+b(com.security.cryptography.CryptoKeyManagementSystem )
+  Unable to fully structure code
+
+
+com.network.protocol.NetworkProtocolDispatcher
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.computation.mapping.ComputationalDataMapper
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+e(com.network.packet.NetworkPacketOrchestrator1222 )
+  Could not resolve type clashes
+  Unable to fully structure code
+
+
+com.security.crypto.CipherProcessor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+a.Nu
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.resource.ResourceOrchestrationManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.dispatch.CryptoOperationDispatcher
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.concurrency.management.AsynchronousTaskCoordinator342
+----------------------------
+
+Z()
+  Loose catch block
+G()
+  Could not resolve type clashes
+  Unable to fully structure code
+F()
+  Loose catch block
+<clinit>()
+  Unable to fully structure code
+
+
+com.reverse.engineering.DecompilationAnalyzer
+----------------------------
+
+q()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 4[SWITCH]
+
+
+com.execution.context.ExecutionContextManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.config.ComputationalParameterConfigurator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.graphics.rendering.GraphicalRenderingController249
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.multimedia.streaming.MultimediaStreamHandler
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.mapping.resolution.DynamicMappingResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.game.mechanics.GameMechanicsCalculator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.ui.rendering.GraphicalRenderingController
+----------------------------
+
+A(com.security.session.CipherSessionManager )
+  Exception : java.lang.NullPointerException: Cannot invoke "org.benf.cfr.reader.bytecode.analysis.types.BindingSuperContainer.getBoundSuperForBase(org.benf.cfr.reader.bytecode.analysis.types.JavaTypeInstance)" because "bindingSuperContainer" is null
+W(a.KB )
+  Loose catch block
+<clinit>()
+  Unable to fully structure code
+k()
+  Unable to fully structure code
+
+
+com.network.protocol.TransmissionProtocolConfig
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.transformation.DataTransformationHandler
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.security.SecureConnectionBroker
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.fl
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.cryptography.SecurityCipherManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.PU
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.Be
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.xh
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.transformation.DataEncodingTransformer519
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.transaction.CryptographicTransactionProcessor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.dynamic.proxy.DynamicProxyResolver
+----------------------------
+
+l(com.security.cryptography.CryptoKeyManagementSystem )
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.config.management.ConfigurationParameterManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.metadata.analysis.MetadataExtractor
+----------------------------
+
+G(java.lang.String java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [14[DOLOOP]], but top level block is 6[TRYBLOCK]
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.stream.CryptoStreamProcessor964
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.parameters.SystemParameterConfiguration
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.distributed.topology.DistributedResourceTopologyManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.geo.analytics.GeospatialAnalyticsEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.streaming.DataStreamOrchestrator629
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.authorization.AuthorizationValidator
+----------------------------
+
+<init>(com.bytecode.instrumentation.ArgumentInterceptor java.lang.String java.lang.String )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+com.messaging.async.AsynchronousMessageBroker
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.resilience.coordination.ResilienceCoordinationManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.stream.correlation.MultiStreamEventCorrelator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.compression.DataCompressionOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.mapping.dynamic.DynamicObjectMapper
+----------------------------
+
+<init>()
+  Unable to fully structure code
+  Could not resolve type clashes
+<clinit>()
+  Unable to fully structure code
+
+
+a.cr
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.token.SecurityTokenGenerator254
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.event.core.EventDispatchFramework
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.processing.sequence.TransformationSequenceController
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.encoding.CryptoEncodingResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.qb
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.development.analysis.DecompilationErrorHandler1071
+----------------------------
+
+L(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+
+
+com.runtime.adaptation.RuntimeAdapterResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.packet.NetworkPacketOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.concurrency.scheduler.AsynchronousTaskScheduler253
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.cw
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.Hx
+----------------------------
+
+T(com.bytecode.transformation.BytecodeInstrumentationEngine )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+
+
+com.crypto.token.CryptoTokenExchangeManager
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+a.PJ
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.protocol.NetworkProtocolEncoder318
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.qd
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.stream.CryptoStreamProcessor609
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.management.ClassPoolRegistry
+----------------------------
+
+Q(java.lang.String )
+  Loose catch block
+
+
+com.graphics.rendering.FontRenderManager
+----------------------------
+
+z(float float java.lang.String com.graphics.model.GeometricColorDescriptor int int )
+  Loose catch block
+
+
+com.data.processing.ResourceTransformationProcessor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+a.Rr
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.resource.tracking.AssetRegistrationManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.type.mapping.TypeMappingMediator
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+com.network.connection.NetworkConnectionHandler1562
+----------------------------
+
+<init>(com.bytecode.instrumentation.ArgumentInterceptor com.data.persistence.PersistenceRecord int java.lang.String java.lang.String java.lang.String )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+com.financial.processing.TransactionCorrelationEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.structure.tree.RecursiveNodeTreeBuilder
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.context.CryptographicContextManager
+----------------------------
+
+E()
+  Unable to fully structure code
+
+
+com.spatial.geometry.GeometricTransformationCalculator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.tokens.CryptographicTokenGenerator
+----------------------------
+
+<init>()
+  Unable to fully structure code
+q(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+<clinit>()
+  Unable to fully structure code
+
+
+com.transaction.model.TransactionDescriptor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.dynamic.DynamicCryptoParameterResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.workflow.validation.StateTransitionValidator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.math.transformation.NumericTransformationEngine357
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.reflection.ReflectionContextManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.validation.IntegratedDataValidator
+----------------------------
+
+<init>()
+  Unable to fully structure code
+  Could not resolve type clashes
+<clinit>()
+  Unable to fully structure code
+
+
+com.concurrency.task.AsynchronousTaskCoordinator238
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.token.AsynchronousTokenGenerator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.streaming.StreamCipherTransformer
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.resource.management.DistributedResourceAllocator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.core.reflection.ReflectionUtilityResolver910
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.transformation.DataTransformationCoordinator527
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.integration.adaptation.InterfaceAdaptationManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.cryptography.CryptoAlgorithmSelector
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.stream.transformation.StreamTransformationService
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+com.data.pipeline.TransformationPipelineManager616
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+com.util.numeric.NumericFormattingUtility
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.descriptors.CryptoAlgorithmDescriptor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.runtime.reflection.ReflectionProxyInvoker
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.event.dynamic.DynamicEventOrchestrator
+----------------------------
+
+S(a.KB )
+  Unable to fully structure code
+  Could not resolve type clashes
+<clinit>()
+  Unable to fully structure code
+M(com.network.connection.ConnectionLifecycleHandler )
+  Unable to fully structure code
+p(com.network.event.NetworkEventDispatcher )
+  Unable to fully structure code
+  Could not resolve type clashes
+c(boolean )
+  Unable to fully structure code
+
+
+com.security.token.CryptographicTokenGenerator69
+----------------------------
+
+W()
+  Loose catch block
+<clinit>()
+  Unable to fully structure code
+
+
+com.resource.management.ResourceLifecycleManager500
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.vL
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptoTransformationManager647
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+com.security.exchange.CryptoKeyExchangeMapping
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptoSecurityManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+com.metadata.extraction.MetadataExtractionEngine
+----------------------------
+
+p(com.data.persistence.PersistenceRecord )
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+m(com.security.tokens.SerializableIdentityToken )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 2[SWITCH]
+
+
+com.data.compression.CompressionContextProcessor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.conversion.TypeConversionOrchestrator399
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.error.DecryptionErrorHandler
+----------------------------
+
+V(int com.text.encoding.EncodingUtilityManager )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+
+
+com.runtime.reflection.ReflectionUtilityBroker
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.config.mapping.ConfigParameterMapper
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.resource.management.ResourceAllocationTracker127
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.transformation.DataEncodingTransformer
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.config.mapping.ConfigurationKeyMapper
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.cryptography.CryptographicTransformer289
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.transaction.monitoring.TransactionStatusTracker
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.dynamic.resolution.RuntimeMethodResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.config.ConfigurationResolver715
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptoAlgorithmResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.session.CryptographicSessionManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.engine.CipherTransformationEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.jD
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.distributed.resource.DistributedResourceMediator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.brokerage.ContextualDataBroker
+----------------------------
+
+<init>()
+  Unable to fully structure code
+  Could not resolve type clashes
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.processing.DataTransformationEngine408
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.A7
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.configuration.ConfigurationProfileManager288
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.utils.ReflectionExceptionResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.util.comparison.ComparisonUtility
+----------------------------
+
+c()
+  Loose catch block
+
+
+com.security.context.SecureContextBroker638
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+a.A9
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.session.CryptographicSessionManager336
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.concurrent.resource.MultithreadedResourceOrchestrator
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.dataprocessing.pipeline.ParameterizedDataTransformer
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.app.security.validation.DecompilationValidator
+----------------------------
+
+j(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+e(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+
+
+com.graphics.buffer.GraphicsBufferManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.transmission.NetworkTransmissionController
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.math.computation.NumericComputationEngine
+----------------------------
+
+p()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+z(com.network.packet.NetworkPacketOrchestrator1222 )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+com.event.processing.EventOrchestrationEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.monitoring.RuntimeResourceTracker
+----------------------------
+
+k(java.lang.String )
+  Loose catch block
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptoParameterGenerator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.transaction.management.TransactionOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+H()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 5[SWITCH]
+
+
+com.logging.core.LoggingAndReportingService
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.persistence.context.PersistenceContextManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.security.SecureTransmissionProtocol
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.config.ConfigurationEnumerator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+k(java.lang.String java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 4[SWITCH]
+
+
+com.system.resources.ResourceAllocationManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.runtime.context.ContextualExecutionFramework
+----------------------------
+
+x(com.google.gson.JsonObject )
+  Loose catch block
+<clinit>()
+  Unable to fully structure code
+
+
+a.Bm
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.protocol.CommunicationProtocolDefinition
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.encoding.CryptoCharsetEnum
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.bytecode.analysis.BytecodeMetadataAnalyzer
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.SB
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.event.routing.EventRoutingController
+----------------------------
+
+U()
+  Could not resolve type clashes
+  Loose catch block
+<clinit>()
+  Unable to fully structure code
+
+
+com.config.resolution.ConfigurationContextResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptographicSecurityManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.interception.CryptoResourceInterceptor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.audit.trail.AuditTrailReconstructor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.config.NetworkConfigurationEnum
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.resource.SecureResourceAllocator346
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.transformation.DataTransformationEngine398
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.interceptors.ResourceInterceptor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.proxy.ReflectionProxyManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+com.network.protocol.NetworkProtocolTranslator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.qv
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.resource.ResourceLifecycleManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.workflow.management.AdaptiveWorkflowCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.registry.SecureParameterRegistry
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.session.CryptoSessionManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a._8
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptographySessionManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.authorization.AuthorizationStateManager
+----------------------------
+
+P()
+  Unable to fully structure code
+
+
+com.data.streaming.DataStreamOrchestrator686
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.configuration.CipherConfigurationManager525
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+z(java.lang.Object int )
+  Loose catch block
+
+
+com.system.resource.ResourceAllocationController
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.runtime.conversion.TypeConvertor
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+com.security.transform.CryptographicTransformer
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.fS
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.extensions.ExtendedApiResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.protocol.CommunicationProtocolManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.invocation.dynamic.ParameterizedInvocationHandler
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.oQ
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.concurrent.resource.ThreadSafeResourceCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.integration.protocols.MultiprotocolAdapterFramework
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+Y(com.event.management.DomainEventAggregator )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+com.network.messaging.NetworkMessageBroker
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.mapping.SecureDataMapper
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.resource.lifecycle.ResourceLifecycleManager315
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.config.RuntimeConfigurationResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.vX
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.message.processing.MessageQueueProcessor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.util.ContextualReflectionUtility
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.interaction.multimodal.MultimodalInteractionManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.compatibility.ApiCompatibilityValidator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.Cv
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+d()
+  Could not resolve type clashes
+  Unable to fully structure code
+
+
+com.network.protocol.NetworkPacketDecoder
+----------------------------
+
+decode(io.netty.channel.ChannelHandlerContext io.netty.buffer.ByteBuf java.util.List<java.lang.Object> )
+  Loose catch block
+
+
+com.security.encryption.CipherKeyGenerator518
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.connection.ConnectionPoolOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.metadata.ClassMetadataResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.bP
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.bytecode.analysis.BytecodeAnalysisEngine
+----------------------------
+
+Z(java.lang.Object )
+  Unable to fully structure code
+K(int int java.lang.Object[] int java.lang.Object[] )
+  Unable to fully structure code
+A(int java.lang.String java.lang.String java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [5[TRYBLOCK]], but top level block is 13[SWITCH]
+Y()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [9[TRYBLOCK]], but top level block is 15[SWITCH]
+<clinit>()
+  Unable to fully structure code
+
+
+com.protocol.encoding.EncodingProtocolResolver
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+a.A5
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.configuration.ConfigurationCalibrator
+----------------------------
+
+G(com.security.auth.AuthenticationProvider2618 )
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+Z(com.event.dispatch.EventDispatchController1028 )
+  Unable to fully structure code
+
+
+com.integration.protocols.MultiProtocolAdapter
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.resolution.ReflectiveEntityResolver
+----------------------------
+
+f(com.event.dispatch.EventDispatchRegistry2111 )
+  Could not resolve type clashes
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.computation.SecureComputationFramework
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.RK
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+G()
+  Unable to fully structure code
+
+
+com.config.distributed.DistributedConfigurationInterface
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CipherManager
+----------------------------
+
+lambda$new$1(char int )
+  Loose catch block
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.streaming.CryptoStreamProcessor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.graphics.rendering.GraphicalRenderingController52
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.runtime.context.ContextualRuntimeMediator
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.context.SecureContextBroker
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.transformation.SecureDataTransformer
+----------------------------
+
+K(com.rendering.context.RenderContextManager )
+  Loose catch block
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.negotiation.CryptoParameterNegotiator639
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+com.network.caching.DistributedCacheMediator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.distributed.cluster.ClusterNodeOrchestrator
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.cipher.CipherConfigurationEnum
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.config.secure.ConfigurationSecureLoader
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.distributed.resource.DistributedResourceTracker
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.protocol.NetworkProtocolEncoder1023
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.type.registry.DynamicTypeRegistry
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+a.zY
+----------------------------
+
+q()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+W(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 8[SWITCH]
+O(java.lang.String int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+
+
+com.development.analysis.DecompilationErrorHandler1215
+----------------------------
+
+Z(com.entity.lifecycle.ComplexEntityLifecycleManager int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+
+
+com.reflection.mediation.DynamicReferenceMediator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.tokens.SecureTokenLifecycleManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.runtime.interceptor.ContextualDataInterceptor
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.transformation.NumericTransformationRegistry
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.yb
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.transmission.SecureDataDispatcher
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.serialization.JsonDataOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.cA
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.encoding.protocol.EncodingProtocolManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.async.events.AsynchronousEventCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.ui.theme.ApplicationColorSchemeManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.mediation.SecureDataMediator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.app.workflow.StateTrackingCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.auth.endpoint.AuthenticationEndpointResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.encoding.SecureDataEncoder
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptographicSessionController
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+y()
+  Loose catch block
+
+
+a.vh
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.computation.resolver.ContextualComputationResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.concurrency.management.AsyncExecutionCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.config.AdaptiveConfigurationManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+k(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 2[SWITCH]
+
+
+com.security.metadata.TimestampedSecurityDescriptor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+J(com.google.gson.JsonElement )
+  Loose catch block
+
+
+com.data.enhancement.EnhancedTransformationProcessor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.AA
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.transaction.TransactionalCipherManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.cipher.CipherConfigurationManager806
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.event.management.EventBroadcastCoordinator
+----------------------------
+
+fire()
+  Unable to fully structure code
+
+
+com.network.protocol.NetworkProtocolEncoder683
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.resources.ResourceAllocationTracker882
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.transform.CipherTransformationManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+a.Wz
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.protocol.encoding.EncodingProtocolHandler
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.authentication.AuthenticationContextManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.compute.hybrid.HybridComputationOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.transaction.adapter.TransactionalInterfaceAdapter
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.EncryptionTransformer
+----------------------------
+
+n(java.lang.String )
+  Loose catch block
+<clinit>()
+  Unable to fully structure code
+
+
+com.bytecode.transformation.BytecodeInstrumentationEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.advanced.resolution.MultiLayeredCompositeResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.negotiation.AdvancedCipherNegotiator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.runtime.invocation.DynamicMethodInvoker
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+com.runtime.memory.MemoryResourceAllocator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.dynamic.instrumentation.RuntimeInstrumentationEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+y(java.lang.String int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 2[SWITCH]
+
+
+com.state.management.AdaptiveStateManager
+----------------------------
+
+q(com.system.configuration.SystemConfigurationOrchestrator )
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+a.z1
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+e()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+
+
+com.network.protocol.NetworkProtocolDecoder
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.decryption.MultiProtocolDecryptionEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+com.ui.rendering.GraphicalResourceManager290
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.rendering.adaptive.AdaptiveRenderingEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.algorithm.calibration.AlgorithmParameterCalibrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.UI
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.policy.PolicyConfigurationManager
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.key.CryptographicKeyManager131
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+com.security.cryptography.CryptographicResourceManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.protocol.NetworkPayloadEncoder837
+----------------------------
+
+a(io.netty.channel.ChannelHandlerContext com.data.contract.DataTransformationContract2366 io.netty.buffer.ByteBuf )
+  Loose catch block
+
+
+com.security.negotiation.CryptoContextNegotiator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.simulation.calibration.SimulationParameterCalibrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.simulation.probabilistic.StochasticSimulationModel
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.lifecycle.SystemLifecycleController
+----------------------------
+
+L()
+  Loose catch block
+lambda$null$2(java.util.concurrent.atomic.AtomicReference )
+  Loose catch block
+
+
+com.data.transformation.DataTransformationService
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.negotiation.CryptoDataNegotiator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.graph.structure.RecursiveNodeGraph
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.PR
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+com.monitoring.diagnostics.DiagnosticEventTracker
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.session.CryptoSessionManager320
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.runtime.context.LightweightExecutionContext
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.FU
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.Nw
+----------------------------
+
+G(com.reflection.metadata.ClassMetadataExtractor )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[DOLOOP]], but top level block is 0[TRYBLOCK]
+
+
+com.security.session.CryptoSessionNegotiator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.fP
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.graphics.palette.ColorPaletteGenerator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.identity.management.UniqueIdentifierManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.configuration.CryptoConfigurationManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.config.SecureConfigurationManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.transformation.ResourceTransformationEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptographicKeyExchanger
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+K(com.reflection.execution.MethodExecutionValidator )
+  Loose catch block
+
+
+com.metadata.reflection.ReflectionContextResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.config.management.ConfigurationMapper
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.security.SystemIntegrityValidator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+p()
+  Loose catch block
+
+
+com.security.orchestration.SecureDataOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+a.s_
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptoParameterEncoder
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.timing.TimestampCorrelationService
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.xL
+----------------------------
+
+W()
+  Loose catch block
+<clinit>()
+  Unable to fully structure code
+
+
+com.execution.dynamic.DynamicExecutionOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+C(a.KB )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+com.reflection.access.ReflectiveAccessMediator
+----------------------------
+
+f(com.logging.audit.AuditTrailLogger )
+  Loose catch block
+S(com.data.persistence.PersistenceRecord boolean )
+  Loose catch block
+
+
+a.v9
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.runtime.metadata.MetadataResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.session.CryptographicSessionManager259
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.bN
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.statefulgw.StatefulCommunicationController
+----------------------------
+
+Z(a.KB )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+com.security.authentication.CryptographicKeyResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.protocol.adapter.ProtocolAdapterManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.monitoring.SystemHealthMonitor
+----------------------------
+
+<init>(com.network.connection.NetworkConnectionDescriptor )
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.concurrent.task.AsynchronousTaskDispatcher
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.codec.translation.EncodingProtocolTranslator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.session.CryptoSessionManager627
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+com.crypto.signature.CryptoSignatureManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.core.lifecycle.ObjectLifecycleManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.I9
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.encoding.dynamic.DynamicEncodingProcessor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.session.CryptographicSessionManager847
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.async.AsynchronousCipherManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.interceptor.MultiProtocolInterceptor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.negotiation.AdaptiveProtocolNegotiator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+a.vC
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.resource.management.ResourceAllocationTracker
+----------------------------
+
+q(a.KB )
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.configuration.AdaptiveConfigEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.validation.MethodValidationProxy
+----------------------------
+
+N(java.lang.String )
+  Loose catch block
+
+
+a.Uq
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+com.security.obfuscation.DataObfuscator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.encoding.protocol.EncodingProtocolEnum
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.HN
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.resource.lifecycle.ResourceLifecycleOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.graphics.resources.GraphicalResourceManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+d(com.event.dispatch.EventDispatchRegistry2111 )
+  Could not resolve type clashes
+  Loose catch block
+
+
+com.system.configuration.ConfigurationProfileManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.event.orchestration.EventDispatchOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.context.CryptoContextBroker
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+com.security.decryption.CryptographicKeyDecoder
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.execution.MethodExecutionValidator
+----------------------------
+
+N(java.lang.String )
+  Loose catch block
+
+
+com.reflection.invocation.DynamicMethodInvoker587
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+a.qL
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.authentication.AuthenticationTokenGenerator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.stream.processing.StreamProcessingOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.cache.distributed.DistributedCacheManager135
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+com.network.negotiation.SecureContextNegotiator531
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.threading.executor.BackgroundTaskExecutor1258
+----------------------------
+
+e()
+  Loose catch block
+
+
+com.crypto.transformer.CipherTransformationHandler
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+com.concurrency.scheduling.AsynchronousTaskScheduler1070
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+com.adapters.factory.DynamicTypeAdapterFactory
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.qy
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+a.qG
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.runtime.metadata.DynamicClassInspector
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.transformation.DataTransformationOrchestrator
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+a.i9
+----------------------------
+
+T(com.runtime.context.LightweightExecutionContext )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [7[TRYBLOCK]], but top level block is 8[SWITCH]
+<clinit>()
+  Unable to fully structure code
+
+
+com.protocol.config.ProtocolConfigurationEnum
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.allocation.SecureResourceAllocator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.resource.management.ContextualResourceBroker
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.secure.SecureChannelNegotiator389
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.distributed.compute.DistributedComputationOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.context.CryptographicContextManager316
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptographicTransformationService217
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.dev.analysis.CompilationErrorAnalyzer
+----------------------------
+
+N(java.util.List<com.debugging.analysis.ExceptionAnalyzer> int com.reflection.management.ClassPoolRegistry )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [13[DOLOOP]], but top level block is 5[TRYBLOCK]
+
+
+com.data.transformation.ContextualTransformationEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.access.ReflectionAccessMediator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.json.processing.JsonTransformationCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.asset.management.AssetProcessingCoordinator
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.orchestration.CryptoOperationOrchestrator951
+----------------------------
+
+o(int int com.security.crypto.EncryptionContextInitializer a.aX )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 16[SWITCH]
+O(a.aX int com.text.encoding.EncodingUtilityManager )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 4[SWITCH]
+<clinit>()
+  Unable to fully structure code
+x(a.aX java.lang.String int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 2[SWITCH]
+
+
+com.caching.management.CacheCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.temporal.metadata.TemporalMetadataResolver
+----------------------------
+
+q()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptographicEnumRegistry
+----------------------------
+
+f(com.analytics.computation.MetricsCalculationEngine )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptoKeyGenerator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+com.reflection.metadata.ReflectionMetadataResolver933
+----------------------------
+
+Z(java.lang.String com.reflection.management.ClassPoolRegistry )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[DOLOOP]], but top level block is 1[TRYBLOCK]
+
+
+com.security.resource.SecureResourceManager
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.development.tools.DecompilationErrorHandler1089
+----------------------------
+
+q(java.lang.String com.monitoring.diagnostics.DiagnosticEventRecorder boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 2[SWITCH]
+
+
+com.security.queued.QueuedCipherExecutor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.messaging.async.AsynchronousMessageDispatcher
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.encoding.transformation.EncodingTransformationService776
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.utils.reflection.ReflectionUtilityManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.computation.SecureComputationOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.concurrency.execution.AsynchronousTaskExecutor
+----------------------------
+
+run()
+  Loose catch block
+
+
+com.security.protocol.EncryptionProtocolHandler
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.config.schema.ConfigurationSchemaResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.runtime.management.RuntimeContextManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+a.we
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.dynamic.ReflectiveMethodInvoker
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.session.CryptographicSessionManager446
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.event.coordination.EventSequenceOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.concurrency.async.AsyncOperationMediator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.app.concurrency.task.BackgroundTaskExecutor
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[DOLOOP]], but top level block is 1[TRYBLOCK]
+
+
+com.security.cipher.CipherModeRegistry
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.conversion.TypeConversionOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.runtime.reflection.ReflectionUtilityService
+----------------------------
+
+<init>(com.crypto.protocol.CryptoProtocolEngine java.lang.Class java.lang.String boolean boolean boolean java.lang.Class int )
+  Unable to fully structure code
+A()
+  Unable to fully structure code
+
+
+com.app.configuration.ConfigurationDescriptor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.codec.CryptographicTransformer476
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+com.data.temporal.ChronoDataSynchronizer
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.transformation.CipherTransformationHandler932
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.Bh
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.generation.CryptoAlgorithmGenerator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.state.SystemStateOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.protocol.NetworkProtocolEncoder1006
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.Sc
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.transformation.DataTransformationPipeline
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptographicKeyGenerator229
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptographicContextBuilder
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+P(com.reflection.validation.MethodValidationProxy )
+  Loose catch block
+K(com.reflection.execution.MethodExecutionValidator )
+  Loose catch block
+
+
+com.security.constants.CipherConfigurationMode
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.PS
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.resolution.DynamicMethodResolver
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.math.geometry.GeometricComputationEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.Ry
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+R(com.google.gson.JsonElement )
+  Loose catch block
+
+
+com.network.security.NetworkSecureChannelManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.PN
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.transformation.TransformationOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+com.network.transformation.NetworkPayloadTransformer
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.cipher.CipherContextManager551
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.configuration.AdaptiveConfigurationResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.bytecode.analysis.DecompilationErrorHandler
+----------------------------
+
+B(char )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+
+
+com.transaction.core.TransactionOrchestrator690
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.xP
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.encryption.SecureDataEncryptionManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.session.CryptoSessionManager819
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.mapping.DataMappingOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+x()
+  Unable to fully structure code
+  Could not resolve type clashes
+L(com.spatial.calculation.GeometricPositionCalculator )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+com.crypto.streaming.StreamCipherOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+w(com.network.packet.NetworkPacketOrchestrator1222 )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+com.execution.validation.ExecutionStateValidator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.identity.service.UniversalIdentificationService
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.jg
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.constants.CipherModeEnum
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.development.tools.DecompilationExceptionHandler
+----------------------------
+
+Z(com.entity.lifecycle.ComplexEntityLifecycleManager int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+
+
+com.event.management.EventDistributionHub
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+x(com.system.resource.SystemResourceAllocator1136 java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 9[SWITCH]
+j()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 30[SWITCH]
+
+
+com.analysis.metadata.MetadataExtractionEngine213
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+z(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 2[SWITCH]
+B(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 2[SWITCH]
+R(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 2[SWITCH]
+
+
+com.crypto.stream.StreamCipherSessionManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.auth.core.AuthenticationContextResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.streaming.DataStreamTransformer
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.s
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.pipeline.ObjectPipelineManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.clustering.ClusterNodeCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+Z()
+  Loose catch block
+
+
+com.network.protocol.NetworkProtocolInterceptor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.wz
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.service.orchestration.ServiceOrchestrationManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.resources.ResourceAllocationManager264
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptoTransformationManager
+----------------------------
+
+h(com.security.cryptography.CryptoKeyManagementSystem )
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.serialization.SerializationOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.Ok
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.streaming.StreamCipherOrchestrator183
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.validation.SafetyComplianceValidator
+----------------------------
+
+t(boolean com.data.persistence.PersistenceRecord )
+  Unable to fully structure code
+m(com.security.tokens.SerializableIdentityToken )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 4[SWITCH]
+<clinit>()
+  Unable to fully structure code
+a(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 2[SWITCH]
+G(com.communication.remote.RemoteConnectionDescriptor )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 2[SWITCH]
+x(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 2[SWITCH]
+
+
+com.security.protocols.CryptoProtocolEnum
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.auth.token.SecurityTokenGenerator
+----------------------------
+
+K(com.security.cryptography.CryptoKeyManagementSystem )
+  Loose catch block
+r(com.network.packet.NetworkPacketOrchestrator1222 )
+  Loose catch block
+x(com.network.event.NetworkEventDispatcher )
+  Loose catch block
+
+
+a.y8
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.ms
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.obfuscation.NumericScrambler
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.protocol.ProtocolEnumerationRegistry672
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.graphics.palette.ColorPaletteManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.archival.TemporalDataArchiver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+T(com.google.gson.JsonElement )
+  Loose catch block
+
+
+com.app.event.trigger.EventTriggerManager
+----------------------------
+
+fire()
+  Unable to fully structure code
+
+
+com.security.cipher.CipherConfigurationResolver949
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.context.negotiation.DynamicContextNegotiator
+----------------------------
+
+U(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 2[SWITCH]
+<clinit>()
+  Unable to fully structure code
+
+
+com.core.encoding.CharsetEncodingSpecification
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.Bz
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.low.level.processing.ByteManipulationEngine
+----------------------------
+
+P(byte[] byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+l()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous, and can't clone.
+k(byte[] byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+B(a.vC )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 5[SWITCH]
+P(java.nio.ByteBuffer int a.vC )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous, and can't clone.
+<clinit>()
+  Unable to fully structure code
+p(byte[] byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous, and can't clone.
+j(byte[] byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+
+
+com.core.service.ServiceLifecycleController
+----------------------------
+
+g(a.KB )
+  Unable to fully structure code
+
+
+a.lT
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.key.CipherKeyExchanger
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.computation.rules.ComputationalRuleEngine
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+com.data.serialization.JsonPayloadOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.resource.CryptoResourceAllocator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+a.x9
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.encryption.CipherContextManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.app.event.broker.EventBrokerRegistry
+----------------------------
+
+fire()
+  Loose catch block
+
+
+com.compiler.parsing.SyntaxTokenizer
+----------------------------
+
+a(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 11[SWITCH]
+k(java.lang.StringBuilder int com.monitoring.model.TelemetryRecord )
+  Loose catch block
+P(com.monitoring.model.TelemetryRecord )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[DOLOOP]], but top level block is 0[TRYBLOCK]
+
+
+com.resource.dynamic.DynamicResourceBroker
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.math.indexing.ComputationalIndexMapper
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.lJ
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.concurrency.execution.HybridExecutionCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.discovery.DistributedComponentRegistry
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptographicSecurityProvider
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.compatibility.LegacyApiInterceptor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.resource.dynamic.DynamicResourceAllocator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.allocation.NetworkResourceAllocator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.compression.codec.CompressionCodecResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.dynamics.DynamicParameterManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.graphics.compute.GraphicsComputationKernel
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.runtime.mediation.RuntimeContextMediator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+B(com.analytics.computation.MetricsCalculationEngine )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [15[TRYBLOCK]], but top level block is 17[SWITCH]
+
+
+com.cache.distribution.DistributedCacheManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+q()
+  Unable to fully structure code
+
+
+com.config.mapping.BooleanConfigurationMapper
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.validation.core.ObjectReferenceValidator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.adaptive.AdaptiveCryptoTransformer
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.interceptor.DynamicProtocolInterceptor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a._Y
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.connection.NetworkConnectionManager1605
+----------------------------
+
+<init>(com.bytecode.instrumentation.ArgumentInterceptor java.lang.String com.data.persistence.PersistenceRecord )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+com.resource.management.ResourceMappingController
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+com.data.encoding.DataEncodingTranslator
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+com.data.context.ContextualDataBroker868
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.analytics.metrics.AnalyticsMetricsProcessor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.transaction.management.TransactionCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.math.geometry.GeometricComputationEngine275
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.resources.ResourceAllocationManager420
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptoKeyExchanger
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.KW
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.decoding.multiprotocol.MultiProtocolDecoder
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.cipher.AdaptiveCipherEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.Xz
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.protocol.ProtocolEncoder
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.math.transformation.NumericTransformationEngine
+----------------------------
+
+E()
+  Unable to fully structure code
+
+
+com.algorithm.bitmanipulation.BitwiseOperationResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.algorithm.optimization.AdaptiveComputationEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.utils.ReflectionProxyHandler
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.processing.transformation.DataTransformationEngine817
+----------------------------
+
+c()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 2[SWITCH]
+<clinit>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 7[SWITCH]
+
+
+com.crypto.registry.CryptoAlgorithmRegistry
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.graphics.animation.AnimationCurveGenerator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.concurrency.scheduling.AsynchronousTaskScheduler
+----------------------------
+
+p(com.network.event.NetworkEventDispatcher )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [42[DOLOOP]], but top level block is 3[TRYBLOCK]
+
+
+a.cN
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.runtime.context.DynamicContextBroker
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.parsing.MultiFormatDecoder
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.access.FieldAccessNegotiator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.stream.DataStreamCipher
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.meta.MetaInformationResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.serialization.DataSerializationManager
+----------------------------
+
+Y()
+  Loose catch block
+<clinit>()
+  Unable to fully structure code
+
+
+a._c
+----------------------------
+
+X(java.lang.String boolean boolean )
+  Unable to fully structure code
+
+
+a.N9
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.metadata.ReflectionMetadataResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+d(java.lang.String boolean )
+  Loose catch block
+C()
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+com.data.compression.CompressionAlgorithmManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+com.graphics.color.ColorCompositionEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.text.normalization.CharsetNormalizationEnum
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.runtime.resolution.DynamicClassResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.protocol.NetworkProtocolEncoder220
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.obfuscation.ObfuscationKeyGenerator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.auth.AuthenticationTokenGenerator268
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.data.SecureDataTransformer273
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.math.transformation.NumericTransformer
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.security.NetworkSecurityTokenGenerator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.metadata.introspection.MetadataIntrospectionEngine
+----------------------------
+
+n(java.io.DataOutputStream )
+  Unable to fully structure code
+K(boolean )
+  Loose catch block
+b()
+  Loose catch block
+E(com.reflection.metadata.ClassMetadataExtractor com.entity.lifecycle.ComplexEntityLifecycleManager int int )
+  Unable to fully structure code
+
+
+com.system.concurrency.ConcurrentTaskScheduler
+----------------------------
+
+b(com.network.event.NetworkEventDispatcher )
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+o(com.network.packet.NetworkPacketOrchestrator1222 )
+  Loose catch block
+
+
+com.network.protocol.NetworkProtocolEncoder497
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.exchange.SecureDataExchanger
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+com.scientific.modeling.ComputationalModelCalibrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+w(byte[] int java.lang.String )
+  Loose catch block
+
+
+com.data.processing.DataTransformationEngine263
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.dynamic.DynamicResourceResolver642
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.access.SecureAccessController
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.encryption.EncryptionContextBuilder
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.codec.transformation.EncodingTransformationEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.transformation.DataTransformationCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.bytecode.analysis.BytecodeAnalysisEngine305
+----------------------------
+
+q(byte[] int int boolean java.util.List<com.system.configuration.ConfigurationManager2254> com.bytecode.analysis.BytecodeMetadataExtractor1871 )
+  Could not resolve type clashes
+  Unable to fully structure code
+o(byte[] int byte[] int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+
+
+com.crypto.protocol.CipherProtocolHandler448
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.ew
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.stream.DataStreamEncryptionHandler
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.communication.MultiStreamCommunicationHandler
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.cluster.management.ClusterNodeRegistry
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.transformation.coordination.TypeConversionCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.text.processing.PatternMatchingOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.operations.CryptographicOperationCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.AN
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.decompiler.diagnostics.DecompilationErrorAnalyzer
+----------------------------
+
+R(com.system.config.PersistentConfigurationMap )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 6[SWITCH]
+j(com.system.config.PersistentConfigurationMap com.event.orchestration.DeclarativeEventOrchestrator )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[DOLOOP]], but top level block is 1[TRYBLOCK]
+t(com.system.config.PersistentConfigurationMap )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 5[SWITCH]
+j(com.system.config.PersistentConfigurationMap )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 5[SWITCH]
+
+
+com.security.modes.CryptographicModeEnum866
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.finance.risk.FinancialRiskCalculator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.A6
+----------------------------
+
+E(com.event.dispatch.EventDispatchRegistry2111 )
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.encoding.core.DataEncodingOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.text.encoding.EncodingCharsetConverter
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.identity.resolution.PersistentIdentityResolver
+----------------------------
+
+<init>(int int )
+  Unable to fully structure code
+
+
+a.hg
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.protocol.NetworkProtocolResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.resources.dynamic.DynamicResourceResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.proxy.invocation.InvocationProxyManager
+----------------------------
+
+y()
+  Loose catch block
+c()
+  Unable to fully structure code
+  Could not resolve type clashes
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.orchestration.CryptoDataOrchestrator
+----------------------------
+
+w()
+  Unable to fully structure code
+
+
+a.Zw
+----------------------------
+
+g(com.system.configuration.SystemConfigurationOrchestrator com.network.protocol.NetworkProtocolNegotiator com.event.management.ContextualEventDispatcher com.session.management.MultiProtocolSessionManager float float )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [22[UNCONDITIONALDOLOOP]], but top level block is 9[TRYBLOCK]
+T(com.app.core.identification.UniqueIdentifierGenerator int a.kg float float java.util.PriorityQueue<com.app.core.identification.UniqueIdentifierGenerator> java.util.Set<com.app.core.identification.UniqueIdentifierGenerator> )
+  Unable to fully structure code
+m(com.event.management.ContextualEventDispatcher com.network.protocol.NetworkProtocolNegotiator a.N9 com.system.config.AdaptiveConfigurationManager )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+W(a.oQ int a.kg float float java.util.PriorityQueue<com.app.core.identification.UniqueIdentifierGenerator> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 4[SWITCH]
+
+
+com.security.keygen.CryptographicKeyGenerator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.key.CipherKeyExchangeManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.dynamic.ReflectiveInvocationBroker
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptographicModeEnum
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.policy.SecurityPolicyValidator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.configuration.SystemCompatibilityMode
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+U(java.lang.String java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 2[SWITCH]
+
+
+a.UB
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+com.data.compression.DataCompressionNegotiator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.resource.ResourceAllocationManager460
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.resource.ResourceAllocationManager707
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.util.conversion.TypeConversionUtility
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.config.dynamic.DynamicConfigurationResolver
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.app.error.management.ErrorRecoveryHandler
+----------------------------
+
+C(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+
+
+com.network.http.HttpRequestOrchestrator
+----------------------------
+
+p()
+  Loose catch block
+<clinit>()
+  Unable to fully structure code
+
+
+com.routing.interceptor.InterceptorRoutingEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.core.reflection.ReflectionUtility407
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.UZ
+----------------------------
+
+<init>()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+a.HK
+----------------------------
+
+n(java.lang.Class )
+  Unable to fully structure code
+b()
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+com.game.configuration.GameVersionEnumerator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.protocol.NetworkProtocolMapper
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.diagnostics.error.ErrorDiagnosticTracker
+----------------------------
+
+toString()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 2[SWITCH]
+
+
+com.security.communication.SecureCommunicationOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+com.system.error.ErrorResilienceProtocol
+----------------------------
+
+B(double double )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 7[SWITCH]
+W(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 7[SWITCH]
+O(short short )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 7[SWITCH]
+<clinit>()
+  Unable to fully structure code
+
+
+a.fH
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.AJ
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.state.NetworkStateManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.encoding.EncodingTransformationService
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.app.core.configuration.ConfigurationInitializer
+----------------------------
+
+G(com.bytecode.analysis.BytecodeAnalysisEngine305 com.reflection.registry.MetaclassDefinitionRegistry com.bytecode.analysis.BytecodeInspectionEngine com.app.context.ContextResolver )
+  Loose catch block
+
+
+com.network.security.SecurityContextManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.protocol.dynamic.DynamicProtocolResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.crypto.protocol.CryptoPrimitiveExchangeProtocol
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.ui.theme.ColorSchemeRegistry
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.workflow.adaptive.AdaptiveWorkflowController
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.config.CryptoConfigurationRegistry
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.graphics.transform.GeometricTransformationEngine708
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.transformation.DataTransformationEngine
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.network.config.ProtocolConfigurationManager
+----------------------------
+
+<init>()
+  Unable to fully structure code
+
+
+com.data.orchestration.ContextualDataOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.classification.sorting.SortedEntityClassifier
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+h(java.util.List<com.runtime.context.ContextualExecutionFramework> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 3[SWITCH]
+
+
+a._U
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.orchestration.MultiChannelDataOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.debugging.errors.DecompilationErrorEnum
+----------------------------
+
+H(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 7[SWITCH]
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.context.CryptographicContextManager923
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.config.management.ConfigurationStateManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.ys
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.runtime.context.RuntimeContextResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.datamanagement.broker.ContextualDataBroker653
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+com.identity.management.UniversalIdentityManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.configuration.management.ConfigurationParameterController
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.game.core.GameStateController
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.reflection.introspection.ReflectionIntrospector
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.ui.rendering.FontRenderingEngine
+----------------------------
+
+L(com.system.parameters.SystemParameterConfiguration int boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 2[SWITCH]
+<clinit>()
+  Unable to fully structure code
+
+
+com.resource.lifecycle.ResourceLifecycleManager693
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.adaptive.AdaptiveCipherProcessor
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.crypto.CryptoOperationMediator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+com.graphics.rendering.GraphicsContextBroker
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.encoding.SecureDataEncoder414
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.event.management.ContextualEventDispatcher
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.bytecode.analysis.BinaryCodeAnalyzer
+----------------------------
+
+b(byte[] int int com.bytecode.analysis.BytecodeAnalyzer byte[] com.bytecode.analysis.BytecodeAnalyzer java.util.Map<java.lang.String, java.lang.String> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 3[SWITCH]
+
+
+com.system.resource.ResourceAllocator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.communication.SecureChannelNegotiator481
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.encoding.transformation.EncodingContextTransformer
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+<init>()
+  Unable to fully structure code
+
+
+com.geo.resolver.GeolocationResolver
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.integration.multimodal.MultimodalIntegrationFramework
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+a.wD
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.util.reflection.ReflectionUtility
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.data.streaming.DataStreamOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+T(com.google.gson.JsonArray )
+  Loose catch block
+
+
+com.security.crypto.CryptographicParameterOrchestrator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.security.policy.PolicyEnforcementHandler
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.concurrent.scheduling.AsynchronousTaskScheduler1046
+----------------------------
+
+p()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [15[DOLOOP]], but top level block is 6[TRYBLOCK]
+
+
+com.graphics.rendering.GraphicsRenderingUtility
+----------------------------
+
+z(double double )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 1[SWITCH]
+J()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 8[SWITCH]
+
+
+com.distributed.resources.DistributedResourceCoordinator
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.resource.ComputationalResourceAllocator
+----------------------------
+
+G()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [21[CATCHBLOCK]], but top level block is 5[TRYBLOCK]
+<clinit>()
+  Unable to fully structure code
+
+
+a.a
+----------------------------
+
+reload()
+  Loose catch block
+start()
+  Loose catch block
+
+
+com.transaction.logging.TransactionLogOrchestrator
+----------------------------
+
+d()
+  Unable to fully structure code
+  Could not resolve type clashes
+<clinit>()
+  Unable to fully structure code
+
+
+com.system.orchestration.SystemOrchestrationManager
+----------------------------
+
+<clinit>()
+  Unable to fully structure code

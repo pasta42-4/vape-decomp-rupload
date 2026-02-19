@@ -1,0 +1,10 @@
+[12:36:27] [Client thread/INFO]: Setting user: Literally_Kirby
+[12:36:27] [Client thread/INFO]: (Session ID is token:eyJraWQiOiIwNDkxODEiLCJhbGciOiJSUzI1NiJ9.eyJ4dWlkIjoiMjUzNTQyMjk4MjEyOTMxOCIsImFnZyI6IkFkdWx0Iiwic3ViIjoiZjA3ZDY5NzctODcwYi00OWIyLWI2ODEtN2E3MzA5NTdiNTRkIiwiYXV0aCI6IlhCT1giLCJucyI6ImRlZmF1bHQiLCJyb2xlcyI6W10sImlzcyI6ImF1dGhlbnRpY2F0aW9uIiwiZmxhZ3MiOlsidHdvZmFjdG9yYXV0aCIsIm1zYW1pZ3JhdGlvbl9zdGFnZTQiLCJvcmRlcnNfMjAyMiIsIm11bHRpcGxheWVyIl0sInByb2ZpbGVzIjp7Im1jIjoiZDMzYzdjNWEtN2QwYy00MzQ2LWFkNmItYTI1OTUyNmQ3MjM0In0sInBsYXRmb3JtIjoiUENfTEFVTkNIRVIiLCJwZmQiOlt7InR5cGUiOiJtYyIsImlkIjoiZDMzYzdjNWEtN2QwYy00MzQ2LWFkNmItYTI1OTUyNmQ3MjM0IiwibmFtZSI6IkxpdGVyYWxseV9LaXJieSJ9XSwibmJmIjoxNzY5NDUyNTgyLCJleHAiOjE3Njk1Mzg5ODIsImlhdCI6MTc2OTQ1MjU4MiwiYWlkIjoiYzM2YTlmYjYtNGYyYS00MWZmLTkwYmQtYWU3Y2M5MjAzMWViIn0.EeUEbOQdJay6O3mbgpXHM1GwDGP2s3o7v9-OIOZsjgQ4pd0LSMrSosydRy0lgObTs-l_f_AI32VziMS20FYrWh73nmAMuWPu0bHCvKCNBWB0fFrE792ERBrL9j6pNcc2DwlR6Bq8tDE3-Q9Z1fPQArVyWcUOwajg2Yh-SuSyMUArQ7ys5NjJMAOepKpKt9SEt5Q9AkIsomiCWUMblqxGhnECI6cRhKZ2_OSNPSGV8RDb0cm9wReXtS2mjXmgb3PR8Hnku9-asAKWIc--ClTulM5Ge1PwmYE2lqYozeB3Vzmv4Yzhzdx8Ek29TdYGZ9HvVbQx7SslGwxYoNH6Q3Xw-w:d33c7c5a7d0c4346ad6ba259526d7234)
+[12:36:27] [Client thread/INFO]: LWJGL Version: 2.9.4
+[12:36:28] [Client thread/INFO]: Reloading ResourceManager: Default
+[12:36:29] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:36:29] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[12:36:29] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:36:29] [Thread-6/INFO]: OpenAL initialized.
+[12:36:29] [Sound Library Loader/INFO]: Sound engine started
+[12:36:30] [Client thread/INFO]: Created: 512x512 textures-atlas
