@@ -1,5 +1,5 @@
 Original was uploaded by LinkNavi, i just repuloaded it. My discord is spaghetti1987
-
+Also, this repostory will get dmca'd. I recommend saving this repostory if you need or if you want to.
 
 # Vape V4 Client Decompilation Guide
 
