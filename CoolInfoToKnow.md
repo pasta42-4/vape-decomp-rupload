@@ -1,0 +1,2 @@
+- There's a really bad ai based deobf that i tried to use, it works but it well at all
+- Current target is to get the gui to open in-game
